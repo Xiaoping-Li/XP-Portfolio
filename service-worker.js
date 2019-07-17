@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Xiaoping-Li/xp-portfolio.git/precache-manifest.3eeb5be3c16cf3e712f8233ad09ec878.js"
+  "/Xiaoping-Li/xp-portfolio.git/precache-manifest.0aeb0c33053498c3164a7834f06ac9b1.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Xiaoping-Li/xp-portfolio.git/static/css/main.2cce8147.chunk.css",
-    "main.js": "/Xiaoping-Li/xp-portfolio.git/static/js/main.84e0affd.chunk.js",
-    "main.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/main.84e0affd.chunk.js.map",
+    "main.css": "/Xiaoping-Li/xp-portfolio.git/static/css/main.e9fd1604.chunk.css",
+    "main.js": "/Xiaoping-Li/xp-portfolio.git/static/js/main.68986f10.chunk.js",
+    "main.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/main.68986f10.chunk.js.map",
     "runtime~main.js": "/Xiaoping-Li/xp-portfolio.git/static/js/runtime~main.b72de5ef.js",
     "runtime~main.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/runtime~main.b72de5ef.js.map",
-    "static/js/2.b41502e9.chunk.js": "/Xiaoping-Li/xp-portfolio.git/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.84e72f3f.chunk.js": "/Xiaoping-Li/xp-portfolio.git/static/js/2.84e72f3f.chunk.js",
+    "static/js/2.84e72f3f.chunk.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/2.84e72f3f.chunk.js.map",
     "index.html": "/Xiaoping-Li/xp-portfolio.git/index.html",
-    "precache-manifest.3eeb5be3c16cf3e712f8233ad09ec878.js": "/Xiaoping-Li/xp-portfolio.git/precache-manifest.3eeb5be3c16cf3e712f8233ad09ec878.js",
+    "precache-manifest.0aeb0c33053498c3164a7834f06ac9b1.js": "/Xiaoping-Li/xp-portfolio.git/precache-manifest.0aeb0c33053498c3164a7834f06ac9b1.js",
     "service-worker.js": "/Xiaoping-Li/xp-portfolio.git/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/Xiaoping-Li/xp-portfolio.git/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/Xiaoping-Li/xp-portfolio.git/static/media/logo.5d5d9eef.svg"
+    "static/css/main.e9fd1604.chunk.css.map": "/Xiaoping-Li/xp-portfolio.git/static/css/main.e9fd1604.chunk.css.map",
+    "static/media/Xiaoping Li.png": "/Xiaoping-Li/xp-portfolio.git/static/media/Xiaoping Li.14de1c9c.png",
+    "static/media/home.css": "/Xiaoping-Li/xp-portfolio.git/static/media/color-pencils.868cb318.png"
   }
 }
