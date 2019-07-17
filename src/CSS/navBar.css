@@ -1,0 +1,58 @@
+.nav-bar {
+  width: 60%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.thumbnail {
+  max-height: 3.5em;
+  display: inline;
+  border-radius: 50%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 2em;
+}
+
+.name {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #3b3a3a;
+}
+
+.sub-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+
+.links {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4em;
+}
+
+.link {
+  text-decoration: none;
+  color: #3b3a3a;
+  font-weight: 400;
+}
+
+.active-link {
+  color: #61D685;
+}
