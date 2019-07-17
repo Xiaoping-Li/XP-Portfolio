@@ -1,0 +1,21 @@
+.home {
+  /* border: 1px solid red; */
+  background: url('../images/color-pencils.png') no-repeat;
+  background-size: cover;
+  /* width: 60%; */
+  height: 75vh;
+  
+}
+
+.intro {
+  /* border: 1px dotted green; */
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 2em;
+  font-weight: 500;
+  color: #000;
+  width: 60%;
+  height: 40%;
+  margin-top: 8%;
+  margin-left: 20%;
+  line-height: 1.6;
+}
