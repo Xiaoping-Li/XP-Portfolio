@@ -68,7 +68,7 @@
   color: #fff;
 }
 
-.home-about-header h2 {
+.home-about-header h2, .home-projects-header h2 {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
 }
@@ -80,11 +80,37 @@
   border-radius: 0.3em;
 }
 
-.home-about-header button {
+.home-about-header button, .home-projects-header button {
   border: none;
   outLine: none;
   background: Transparent;
   font-weight: 400;
   font-size: 1em;
   color: #fff;
+}
+
+/* Resent Projects */
+.home-projects {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-projects-header {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #61D685;
+}
+
+.home-projects-header h2 span {
+  background-color: #61D685;
+  color: #fff;
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
 }

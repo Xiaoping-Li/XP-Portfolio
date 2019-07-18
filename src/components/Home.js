@@ -22,6 +22,14 @@ function Home() {
         </div>
         <RoadmapCarousel />
       </div>
+      {/* Projects */}
+      <div className="home-projects">
+        <div className="home-projects-header">
+          <h2>RECENT <span>PROJECTS</span></h2>
+          <button style={{color: '#61D685'}}>VIEW ALL</button>
+        </div>
+
+      </div>
     </div>
     
   );
