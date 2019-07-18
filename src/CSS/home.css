@@ -1,21 +1,47 @@
 .home {
-  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container {
   background: url('../images/color-pencils.png') no-repeat;
   background-size: cover;
-  /* width: 60%; */
-  height: 75vh;
+  height: 73vh;
   
 }
 
 .intro {
-  /* border: 1px dotted green; */
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 2em;
   font-weight: 500;
   color: #000;
   width: 60%;
   height: 40%;
-  margin-top: 8%;
+  margin-top: 6%;
   margin-left: 20%;
   line-height: 1.6;
+}
+
+.arr-container {
+  height: 8vh;
+  display: flex;
+}
+
+.arr_down {
+  align-self: flex-end;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.bounce {
+  animation-name: arrow_bounce;
+  animation-timing-function: linear;
+}
+
+@keyframes arrow_bounce {
+  0% { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
 }
