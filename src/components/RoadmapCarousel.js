@@ -5,7 +5,6 @@ import slideRight from '../images/slide-arrow-right.svg';
 import '../CSS/roadMapCarousel.css';
 
 
-
 class RoadmapCarousel extends Component {
   state = {
     len: roadMap.length,
@@ -19,14 +18,14 @@ class RoadmapCarousel extends Component {
   }
 
   handleRightClick = () => {
-    if (this.state.len < roadMap.length) {
+    if (this.state.len <= roadMap.length) {
       this.setState({len: this.state.len + 1});
     }
   }
 
   render() {
     // get the array to render
-    let renderArr = roadMap.slice(this.state.len - 4, this.state.len);
+    let renderArr = roadMap.slice(this.state.len - 4, this.state.len - 1);
 
     return(
       <div className="roadmap-carousel">

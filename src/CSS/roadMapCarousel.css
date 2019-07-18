@@ -9,11 +9,10 @@
   flex-grow: 1;
   border: none;
   background: Transparent;
-
 }
 
 .roadmap-carousel-left img, .roadmap-carousel-right img {
-  width: 3em;
+  width: 2em;
   height: auto;
 }
 

@@ -18,7 +18,6 @@ function Home() {
       <div className="home-about">
         <h2>About</h2>
         <RoadmapCarousel />
-
       </div>
     </div>
     
