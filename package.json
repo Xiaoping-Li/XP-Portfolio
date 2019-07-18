@@ -2,7 +2,7 @@
   "name": "xp-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Xiaoping-Li/xp-portfolio.git",
+  "homepage": "https://xiaoping-li.github.io/xp-portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
