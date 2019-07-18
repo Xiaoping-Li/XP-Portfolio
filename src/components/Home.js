@@ -1,6 +1,7 @@
 import React from 'react';
 import '../CSS/home.css';
 import down from '../images/arr_down.png';
+import RoadmapCarousel from './RoadmapCarousel';
 
 function Home() {
   return (
@@ -15,7 +16,8 @@ function Home() {
       </div>
       {/* About */}
       <div className="home-about">
-        
+        <h2>About</h2>
+        <RoadmapCarousel />
 
       </div>
     </div>

@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
+/* Introduction */
 .intro-container {
   background: url('../images/color-pencils.png') no-repeat;
   background-size: cover;
-  height: 73vh;
-  
+  height: 73vh;  
 }
 
 .intro {
@@ -44,4 +45,11 @@
   0% { transform: translateY(0); }
   50%  { transform: translateY(-15px); }
   100% { transform: translateY(0); }
+}
+
+/* About */
+.home-about {
+  height: 60vh;
+  width: 100%;
+  background-color: #61D685;
 }
