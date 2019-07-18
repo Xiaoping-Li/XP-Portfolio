@@ -16,9 +16,9 @@ function Home() {
       </div>
       {/* About */}
       <div className="home-about">
-        <div>
-          <h2>About <span>ME</span></h2>
-          <h3>Detials</h3>
+        <div className="home-about-header">
+          <h2>ABOUT <span>ME</span></h2>
+          <button>DETAILS</button>
         </div>
         <RoadmapCarousel />
       </div>
