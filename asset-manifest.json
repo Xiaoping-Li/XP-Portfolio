@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/Xiaoping-Li/xp-portfolio.git/static/css/main.b0e4eb04.chunk.css",
-    "main.js": "/Xiaoping-Li/xp-portfolio.git/static/js/main.16962704.chunk.js",
-    "main.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/main.16962704.chunk.js.map",
+    "main.css": "/Xiaoping-Li/xp-portfolio.git/static/css/main.92019ba7.chunk.css",
+    "main.js": "/Xiaoping-Li/xp-portfolio.git/static/js/main.5f3a1910.chunk.js",
+    "main.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/main.5f3a1910.chunk.js.map",
     "runtime~main.js": "/Xiaoping-Li/xp-portfolio.git/static/js/runtime~main.b72de5ef.js",
     "runtime~main.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/runtime~main.b72de5ef.js.map",
-    "static/js/2.2ac6097d.chunk.js": "/Xiaoping-Li/xp-portfolio.git/static/js/2.2ac6097d.chunk.js",
-    "static/js/2.2ac6097d.chunk.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/2.2ac6097d.chunk.js.map",
+    "static/js/2.3310f33a.chunk.js": "/Xiaoping-Li/xp-portfolio.git/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/Xiaoping-Li/xp-portfolio.git/static/js/2.3310f33a.chunk.js.map",
     "index.html": "/Xiaoping-Li/xp-portfolio.git/index.html",
-    "precache-manifest.06aba3747fcc7f284e07ca9e7e041e86.js": "/Xiaoping-Li/xp-portfolio.git/precache-manifest.06aba3747fcc7f284e07ca9e7e041e86.js",
+    "precache-manifest.e359ca2e74aa12b0742e9787f4be21b7.js": "/Xiaoping-Li/xp-portfolio.git/precache-manifest.e359ca2e74aa12b0742e9787f4be21b7.js",
     "service-worker.js": "/Xiaoping-Li/xp-portfolio.git/service-worker.js",
-    "static/css/main.b0e4eb04.chunk.css.map": "/Xiaoping-Li/xp-portfolio.git/static/css/main.b0e4eb04.chunk.css.map",
-    "static/media/Xiaoping Li.png": "/Xiaoping-Li/xp-portfolio.git/static/media/Xiaoping Li.14de1c9c.png",
-    "static/media/home.css": "/Xiaoping-Li/xp-portfolio.git/static/media/color-pencils.6a7c4cb7.png"
+    "static/css/main.92019ba7.chunk.css.map": "/Xiaoping-Li/xp-portfolio.git/static/css/main.92019ba7.chunk.css.map"
   }
 }
