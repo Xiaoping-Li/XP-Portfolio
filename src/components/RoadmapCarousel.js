@@ -40,15 +40,14 @@ class RoadmapCarousel extends Component {
           {renderArr.map((item, idx) => {
             return(
               <div className="roadmap-carousel-item">
-                <div key={idx}>
-                  {/* <img
+                <div key={idx} className="card-roadmap-carousel">
+                  <img
                     src={item.img}
                     alt="roadmap-image"
                     className = "roadmap-carousel-item-img"
-                  /> */}
+                  />
                   <div>{item.title}</div>
-                  <div className="roadmap-carousel-item-divider"></div>
-                  <div>{item.time}</div>
+                  <div style={{fontWeight: '400', color: '#000'}}>{item.time}</div>
                 </div>
                 <div className="roadmap-carousel-items-divider"></div>
               </div>

@@ -16,7 +16,10 @@ function Home() {
       </div>
       {/* About */}
       <div className="home-about">
-        <h2>About</h2>
+        <div>
+          <h2>About <span>ME</span></h2>
+          <h3>Detials</h3>
+        </div>
         <RoadmapCarousel />
       </div>
     </div>
