@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     img: [
-      require('../images/shopping.png'), 
+      require('../images/patientFiles.png'), 
       ''
     ],
     title: 'Patient Files Manager',
@@ -57,7 +57,7 @@ export const projects = [
   },
   {
     img: [
-      require('../images/shopping.png'), 
+      require('../images/todo.png'), 
       ''
     ],
     title: 'My Todos',

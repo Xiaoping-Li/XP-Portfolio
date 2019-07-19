@@ -91,7 +91,7 @@
 
 /* Resent Projects */
 .home-projects {
-  height: 85vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -106,9 +106,15 @@
   justify-content: space-between;
   align-items: center;
   color: #61D685;
+  margin-bottom: 5em;
+  margin-top: 5em;
 }
 
 .home-projects-header h2{
   background-color: #61D685;
   color: #fff;
+}
+
+.home-projects-list {
+  width: 70%;
 }

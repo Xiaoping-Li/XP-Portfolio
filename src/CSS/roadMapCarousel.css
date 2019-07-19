@@ -39,7 +39,7 @@
   text-align: center;
   background-color: #fff;
   border-radius: 0.5em;
-  box-shadow: 2px 2px #124220;
+  box-shadow: 1px 1px 2px 2px #124220;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   color: #000;
@@ -51,7 +51,7 @@
   height: 8em;
   border-radius: 0.3em;
   margin: 1em auto;
-  box-shadow: 2px 2px #808080;
+  box-shadow: 1px 1px 2px 2px #808080;
 }
 
 .roadmap-carousel-items-divider {

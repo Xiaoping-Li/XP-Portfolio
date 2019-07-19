@@ -2,6 +2,7 @@ import React from 'react';
 import '../CSS/home.css';
 import down from '../images/arr_down.png';
 import RoadmapCarousel from './RoadmapCarousel';
+import HomeProjectsList from './HomeProjectsList';
 
 function Home() {
   return (
@@ -26,9 +27,12 @@ function Home() {
       <div className="home-projects">
         <div className="home-projects-header">
           <h2>PROJECTS</h2>
-          <button style={{color: '#61D685'}}>VIEW ALL</button>
+          <button style={{color: '#61D685'}}>DETAILS</button>
         </div>
-
+        <div className="home-projects-list">
+          <HomeProjectsList />
+        </div>
+        
       </div>
       {/* Skills */}
       <div className="home-skills-header">
