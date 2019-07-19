@@ -1,5 +1,4 @@
 .home-projects-list-container {
-  /* width: 70%; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,13 +39,11 @@
 }
 
 .home-projects-list-item-hover-on h3 {
-  margin-top: 2em;
   text-shadow: 1px 1px #000;
   font-size: 2em;
 }
 
 .home-projects-list-item-hover-on h4 {
-  margin-top: 1em;
   font-size: 1.5em;
 }
 
@@ -82,5 +79,8 @@
 }
 
 .home-projects-list-item:hover .home-projects-list-item-hover-on {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
