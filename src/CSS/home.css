@@ -49,7 +49,7 @@
 
 /* About */
 .home-about {
-  height: 70vh;
+  height: 85vh;
   width: 100%;
   background-color: #61D685;
   display: flex;
@@ -64,7 +64,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
   color: #fff;
 }
 
@@ -91,7 +91,7 @@
 
 /* Resent Projects */
 .home-projects {
-  height: 80vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   flex-direction: column;

@@ -47,7 +47,7 @@ class RoadmapCarousel extends Component {
                     className = "roadmap-carousel-item-img"
                   />
                   <div>{item.title}</div>
-                  <div style={{fontWeight: '400', color: '#000'}}>{item.time}</div>
+                  <div style={{fontWeight: '400', color: '#000', fontFamily: "Snell Roundhand, cursive"}}>{item.time}</div>
                 </div>
                 <div className="roadmap-carousel-items-divider"></div>
               </div>

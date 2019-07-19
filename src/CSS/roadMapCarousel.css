@@ -34,8 +34,8 @@
 }
 
 .card-roadmap-carousel {
-  width: 18em;
-  height: 10em;
+  width: 20em;
+  height: 15em;
   text-align: center;
   background-color: #fff;
   border-radius: 0.5em;
@@ -47,10 +47,10 @@
 }
 
 .roadmap-carousel-item-img {
-  width: 9em;
-  height: 5em;
+  width: 13em;
+  height: 8em;
   border-radius: 0.3em;
-  margin-top: 0.5em;
+  margin: 1em auto;
   box-shadow: 2px 2px #808080;
 }
 
