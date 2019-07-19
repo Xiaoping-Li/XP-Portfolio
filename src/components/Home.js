@@ -17,7 +17,7 @@ function Home() {
       {/* About */}
       <div className="home-about">
         <div className="home-about-header">
-          <h2>ABOUT <span>ME</span></h2>
+          <h2>ABOUT</h2>
           <button>DETAILS</button>
         </div>
         <RoadmapCarousel />
@@ -25,9 +25,14 @@ function Home() {
       {/* Projects */}
       <div className="home-projects">
         <div className="home-projects-header">
-          <h2>RECENT <span>PROJECTS</span></h2>
+          <h2>PROJECTS</h2>
           <button style={{color: '#61D685'}}>VIEW ALL</button>
         </div>
+
+      </div>
+      {/* Skills */}
+      <div className="home-skills-header">
+        <h2>SKILLS</h2>
 
       </div>
     </div>
