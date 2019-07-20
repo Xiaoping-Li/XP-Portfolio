@@ -8,15 +8,15 @@
 .home-projects-list-item {
   width: 30%;
   height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: 2px solid #61D685;
   margin-right: 2em;
   margin-bottom: 2em;
   border-radius: 1em;
   box-shadow: 1px 1px 2px 2px #207a3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-projects-list-item-hover-off {
