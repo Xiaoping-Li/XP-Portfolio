@@ -3,29 +3,31 @@
 }
 
 .home-projects-carousel-modal {
-  display: block;
+  display: flex;
   width: 80%;
-  height: 500px;
 }
 
 .home-projects-carousel-item {
   width: 100%;
+  height: 80vh;
   margin-left: auto;
   margin-right: auto;
-  background: #f2fbff;
+  background: #edfaf1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .home-projects-carousel-item-img {
-  margin-top: 3em;
-  margin-left: 10%;
+  width: 50%;
+  height: 45%;
 }
 
 .home-projects-carousel-item-info {
-  margin-top: 3em;
-  margin-left: 5%;
-  margin-right: 10%;
+  width: 80%;
+  height: 40%;
+  border: 1px solid red;
 }
 
 .home-projects-carousel-item-name {

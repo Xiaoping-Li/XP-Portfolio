@@ -2,7 +2,7 @@ export const projects = [
   {
     img: [
       require('../images/shopping.png'), 
-      ''
+      require('../images/pets-shopping1.png'),
     ],
     title: 'Pets e-Shopping',
     descShort: 'React Native e-Commerce Project',
@@ -16,7 +16,7 @@ export const projects = [
   {
     img: [
       require('../images/instagram.png'), 
-      ''
+      require('../images/instagram1.png'),
     ],
     title: 'Instagram Clone',
     descShort: 'React Native Social Media Project',
@@ -30,7 +30,7 @@ export const projects = [
   {
     img: [
       require('../images/howdiditgo.jpg'), 
-      ''
+      require('../images/how-did-it-go.png'),
     ],
     title: 'How_did_it_go',
     descShort: 'Team Project by using React',
@@ -44,7 +44,7 @@ export const projects = [
   {
     img: [
       require('../images/patientFiles.png'), 
-      ''
+      require('../images/patient-files-manager.png'),
     ],
     title: 'Patient Files Manager',
     descShort: 'First Personal Full-stack React Project',
@@ -58,7 +58,7 @@ export const projects = [
   {
     img: [
       require('../images/todo.png'), 
-      ''
+      require('../images/My Todos.png'),
     ],
     title: 'My Todos',
     descShort: 'React Project',
