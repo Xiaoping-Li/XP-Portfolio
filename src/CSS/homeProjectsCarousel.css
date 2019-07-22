@@ -7,6 +7,13 @@
   width: 80%;
 }
 
+.carousel-modal-close-btn {
+  width: 100%;
+  text-align: right;
+  padding: 1em;
+  color: #2ca952;
+}
+
 .home-projects-carousel-item {
   width: 100%;
   height: 80vh;
@@ -22,12 +29,22 @@
 .home-projects-carousel-item-img {
   width: 50%;
   height: 45%;
+  border: 3px solid #fff;
+  background-color: #fff;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  box-shadow: 1px 1px 1px 1px #071d0e;
 }
 
 .home-projects-carousel-item-info {
-  width: 80%;
+  width: 70%;
   height: 40%;
-  border: 1px solid red;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
 }
 
 .home-projects-carousel-item-name {
@@ -36,56 +53,38 @@
 }
 
 .home-projects-carousel-item-title {
-  font-size: 1.2em;
-  margin-top: 0.3em;
-}
-
-.home-projects-carousel-item-divider {
-  margin-top: 2em;
-  height: 2px;
-  background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 0.5em;
+  border-bottom: 2px solid #61d685;
+  margin-bottom: 1.5em;
 }
 
 .home-projects-carousel-item-desc {
   font-size: 1.2em;
-  margin-top: 2em;
+  padding: 0.2em;
+  width: 100%;
 }
 
+.home-projects-carousel-item-desc span {
+  font-weight: 600;
+}
 
 /*carousel left and right arrow part*/
-.carousel-control.right, .carousel-control.left {
-    background-image: none;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
 }
 
-.glyphicon-chevron-right {
-    color: #35acdc;
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3em;
+  color: #2ca952;
 }
 
-.glyphicon-chevron-left {
-    color: #35acdc;
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3em;
+  color: #2ca952;
 }
-/*.carousel-control.right {*/
-    /*width: 5%;*/
-    /*margin-top: 20em;*/
-    /*margin-bottom: auto;*/
-    /*margin-right: 10%;*/
-/*}*/
-
-/*.glyphicon-chevron-right {*/
-    /*color: #35acdc;*/
-    /*background: #f2fbff;*/
-/*}*/
-
-/*.carousel-control.left {*/
-    /*width: 5%;*/
-    /*margin-top: 20em;*/
-    /*margin-bottom: auto;*/
-    /*margin-left: 10%;*/
-    /*!*background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);*!*/
-/*}*/
-
-/*.glyphicon-chevron-left {*/
-    /*color: #35acdc;*/
-    /*background: #f2fbff;*/
-/*}*/
-

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Modal, Carousel } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import { projects } from '../data/Projects';
 import '../CSS/homeProjectsCarousel.css';
 
@@ -12,10 +14,9 @@ function HomeProjectsCarousel(props) {
       dialogClassName="home-projects-carousel-modal"
       size="xl"
     >
-      <button className="demo-form-close-btn" onClick={props.handleCarouselShow}>
-          {/* <img src={closeBtn}/> */}
-          X
-      </button>
+      <div className="carousel-modal-close-btn" onClick={props.handleCarouselShow}>
+        <FontAwesomeIcon icon={faTimes}/>
+      </div>
 
       <div>  
         <Carousel
@@ -34,8 +35,9 @@ function HomeProjectsCarousel(props) {
                   
                   <div className="home-projects-carousel-item-info">
                     <div className="home-projects-carousel-item-title">{item.title}</div>
-                    <div className="home-projects-carousel-item-divider"></div>
-                    <p className="home-projects-carousel-item-desc">{item.desc}</p>
+                    {item.frontEnd && <div className="home-projects-carousel-item-desc"><span>Front End: </span>{item.frontEnd}</div>}
+                    {item.backEnd && <div className="home-projects-carousel-item-desc"><span>Back End: </span>{item.backEnd}</div>}
+                    <p className="home-projects-carousel-item-desc"><span>Synopsis: </span>{item.desc}</p>
                   </div>
                 </div>
               </Carousel.Item>
