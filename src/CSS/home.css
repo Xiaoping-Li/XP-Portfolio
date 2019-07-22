@@ -118,3 +118,11 @@
 .home-projects-list {
   width: 70%;
 }
+
+/* Skills */
+.home-skills-header {
+  border: 1px solid red;
+  background: green;
+  height: 60vh;
+  width: 100%;
+}

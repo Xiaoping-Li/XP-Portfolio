@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { projects } from '../data/Projects';
 import HomeProjectsCarousel from './HomeProjectsCarousel';
-import Modal from 'react-bootstrap/Modal';
 import '../CSS/homeProjectsList.css';
 
 
