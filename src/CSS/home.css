@@ -56,7 +56,7 @@
 
 /* About */
 .home-about {
-  height: 85vh;
+  height: 70vh;
   width: 100%;
   background-color: #61D685;
   display: flex;
@@ -75,7 +75,7 @@
   color: #fff;
 }
 
-.home-about-header h2 {
+.home-about-header h2, .home-skills-header h2 {
   background-color: #fff;
   color: #61D685;
 }
@@ -106,8 +106,6 @@
   justify-content: space-between;
   align-items: center;
   color: #61D685;
-  margin-bottom: 5em;
-  margin-top: 5em;
 }
 
 .home-projects-header h2{
@@ -120,8 +118,43 @@
 }
 
 /* Skills */
-.home-skills-header {
-  border: 1px solid red;
+.home-skills {
   height: 60vh;
   width: 100%;
+  background-color: #61D685;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-skills-header {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.home-skills-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.home-skills-list-item {
+  width: 19%;
+  padding: 0.5em 0;
+  background-color: #fff;
+  margin-top: 1em;
+  text-align: center;
+  border-radius: 1em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #3d3d3d;
 }

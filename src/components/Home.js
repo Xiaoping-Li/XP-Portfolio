@@ -3,6 +3,7 @@ import '../CSS/home.css';
 import down from '../images/arr_down.png';
 import RoadmapCarousel from './RoadmapCarousel';
 import HomeProjectsList from './HomeProjectsList';
+import { skills } from '../data/Skills';
 
 
 
@@ -33,13 +34,21 @@ function Home() {
         </div>
         <div className="home-projects-list">
           <HomeProjectsList />
-        </div>
-        
+        </div> 
       </div>
       {/* Skills */}
-      <div className="home-skills-header">
-        <h2>SKILLS</h2>
+      <div className="home-skills">
+        <div className="home-skills-header">
+          <h2>SKILLS</h2>
+        </div>
 
+        <div className="home-skills-list">
+          {skills.map(item => {
+            return (
+              <div className="home-skills-list-item">{item}</div>
+            );
+          })}
+        </div>
       </div>
     </div>
     
