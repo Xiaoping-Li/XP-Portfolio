@@ -4,6 +4,9 @@ import { NavLink } from 'react-router-dom';
 import { projects } from '../data/Projects';
 import Project from './Project';
 import '../CSS/projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapSigns } from '@fortawesome/free-solid-svg-icons';
+import { faMapPin } from '@fortawesome/free-solid-svg-icons';
 
 function Projects({match}) {
   return (
@@ -14,10 +17,11 @@ function Projects({match}) {
           {projects.map(({title, id}) => (
             <NavLink 
               to={`${match.url}/${id}`}
-              className="link"
-              activeClassName="active-link"
+              className="side-nav-bar-link"
+              activeClassName="side-nav-bar-active-link"
             >
-              {title}
+              <FontAwesomeIcon icon={faMapPin} size="2x" />
+              <span className="side-nav-bar-link-name">{title}</span>
             </NavLink>
           ))}
         </div>
