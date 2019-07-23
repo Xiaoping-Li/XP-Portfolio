@@ -1,0 +1,32 @@
+.projects {
+  margin-top: 5em;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.projects h2 {
+  width: 15%;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  padding: 0.1em 0;
+  text-align: center;
+  background-color: #61D685;
+  color: #fff;
+  border-radius: 0.3em;
+  margin-bottom: 3em;
+}
+
+.projects-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.side-nav-bar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

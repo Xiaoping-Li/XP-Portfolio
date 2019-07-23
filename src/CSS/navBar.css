@@ -41,16 +41,27 @@
 }
 
 .links {
-  width: 25%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   font-size: 1.4em;
+  /* border: 1px solid red; */
 }
 
 .link {
   text-decoration: none;
   color: #3b3a3a;
   font-weight: 400;
+  padding: 0 0.3em;
+  /* border: 1px solid red; */
+}
+
+.link:hover {
+  text-decoration: none;
+  background-color: #61D685;
+  color: #fff;
+  padding: 0 0.3em;
+  border-radius: 0.3em;
 }
 
 .active-link {
