@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Carousel } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { projects } from '../data/Projects';
 import '../CSS/homeProjectsCarousel.css';
 
