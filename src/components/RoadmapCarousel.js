@@ -29,12 +29,12 @@ class RoadmapCarousel extends Component {
 
     return(
       <div className="roadmap-carousel">
-        <button
+        <div
           onClick={this.handleLeftClick}
           className="roadmap-carousel-left"
         >
           <img src={slideLeft} alt="left arrow" />
-        </button>
+        </div>
 
         <div className="roadmap-carousel-items">
           {renderArr.map((item, idx) => {
@@ -55,12 +55,12 @@ class RoadmapCarousel extends Component {
           })}
         </div>
 
-        <button
+        <div
           onClick={this.handleRightClick}
           className="roadmap-carousel-right"
         >
           <img src={slideRight} alt="right arrow" />
-        </button>
+        </div>
       </div>
     );
   }

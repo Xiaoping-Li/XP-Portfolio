@@ -13,15 +13,15 @@ function Footer() {
     <div className="footer">
       <div className="contact-list">
         <div className="list-item">
-          <FontAwesomeIcon icon={faGithubSquare} size="3x" inverse />
+          <FontAwesomeIcon icon={faGithubSquare} size="2x" inverse />
           <span className="item-name">GITHUB</span>
         </div>
         <div className="list-item">
-          <FontAwesomeIcon icon={faLinkedin} size="3x" inverse />
+          <FontAwesomeIcon icon={faLinkedin} size="2x" inverse />
           <span className="item-name">LINKEDIN</span>
         </div>
         <div className="list-item">
-          <FontAwesomeIcon icon={faYoutubeSquare} size="3x" inverse />
+          <FontAwesomeIcon icon={faYoutubeSquare} size="2x" inverse />
           <span className="item-name">YOUTUBE</span>
         </div>
         {/* <div className="list-item">

@@ -7,13 +7,6 @@
   align-items: center;
 }
 
-.roadmap-carousel-left, .roadmap-carousel-right {
-  flex-grow: 1;
-  border: none;
-  outLine: none;
-  background: Transparent;
-}
-
 .roadmap-carousel-left img, .roadmap-carousel-right img {
   width: 2em;
   height: auto;

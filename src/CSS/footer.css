@@ -9,8 +9,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+.contact-list {
+  margin-top: 4em;
+}
+
 .list-item {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .item-name {
