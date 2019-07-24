@@ -4,9 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { projects } from '../data/Projects';
 import Project from './Project';
 import '../CSS/projects.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMapSigns } from '@fortawesome/free-solid-svg-icons';
-import { faMapPin } from '@fortawesome/free-solid-svg-icons';
+
 
 function Projects({match}) {
   return (
@@ -20,7 +18,11 @@ function Projects({match}) {
               className="side-nav-bar-link"
               activeClassName="side-nav-bar-active-link"
             >
-              <FontAwesomeIcon icon={faMapPin} size="2x" />
+              <div className="side-nav-bar-marker">
+                <div className="side-nav-bar-marker-bar"></div>
+                <div className="side-nav-bar-marker-dot"></div>
+                <div className="side-nav-bar-marker-bar"></div>
+              </div>
               <span className="side-nav-bar-link-name">{title}</span>
             </NavLink>
           ))}

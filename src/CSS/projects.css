@@ -25,27 +25,38 @@
 }
 
 .side-nav-bar {
-  width: 25%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border-right: 2px solid #70da91;
 }
 
 .side-nav-bar-link {
-  width: 75%;
-  padding: 0.8em 0.8em;
-  margin-bottom: 3em;
+  width: 100%;
   text-decoration: none;
   color: #3b3a3a;
   font-weight: 400;
-  border-radius: 0.8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.side-nav-bar-link span {
+  padding: 0.6em 0.6em;
 }
 
 .side-nav-bar-link:hover {
   text-decoration: none;
-  background-color: #61D685;
+  background: linear-gradient(to right, #4dab6a, #61D685, #bfeece);
   color: #fff;
+  border-radius: 0.6em;
+}
+
+.side-nav-bar-link:hover .side-nav-bar-marker-bar,
+.side-nav-bar-link:hover .side-nav-bar-marker-dot
+ {
+  background-color: #fff;
 }
 
 .side-nav-bar-active-link {
@@ -55,4 +66,26 @@
 .side-nav-bar-link-name {
   margin-left: 1em;
   font-size: 1.3em;
+}
+
+/* side-nar-bar-marker */
+.side-nav-bar-marker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.side-nav-bar-marker-bar {
+  width: 2px;
+  height: 2em;
+  background-color: #61D685;
+}
+
+.side-nav-bar-marker-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #61D685;
 }
