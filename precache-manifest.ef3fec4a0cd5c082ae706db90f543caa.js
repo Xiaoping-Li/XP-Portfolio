@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c8e3a2ea6fdcbc0b0772acbf3bd5ec3",
+    "revision": "89b56dd88d64809e51a1419cd595f893",
     "url": "/xp-portfolio/index.html"
   },
   {
-    "revision": "a75523391d184de45c42",
+    "revision": "96b4d0f55d8069e934aa",
     "url": "/xp-portfolio/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "ef5f52d6ea65cafda7f5",
-    "url": "/xp-portfolio/static/css/main.c9977c96.chunk.css"
+    "revision": "e888b57d2b7a781bb9ef",
+    "url": "/xp-portfolio/static/css/main.a7d1f42d.chunk.css"
   },
   {
-    "revision": "a75523391d184de45c42",
-    "url": "/xp-portfolio/static/js/2.a79544d7.chunk.js"
+    "revision": "96b4d0f55d8069e934aa",
+    "url": "/xp-portfolio/static/js/2.9a42fdc5.chunk.js"
   },
   {
-    "revision": "ef5f52d6ea65cafda7f5",
-    "url": "/xp-portfolio/static/js/main.8d55afd7.chunk.js"
+    "revision": "e888b57d2b7a781bb9ef",
+    "url": "/xp-portfolio/static/js/main.cd806d07.chunk.js"
   },
   {
     "revision": "6bbe16d6d5f0a75ba353",
