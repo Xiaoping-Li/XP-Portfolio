@@ -27,8 +27,9 @@ function Projects({match}) {
             </NavLink>
           ))}
         </div>
-
-        <Route path={`${match.path}/:projectId`} component={Project} />
+        <div style={{width: '75%'}}>
+          <Route path={`${match.path}/:projectId`} component={Project} />
+        </div> 
       </div>  
     </div>
   );

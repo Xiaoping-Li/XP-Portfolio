@@ -28,7 +28,7 @@ function HomeProjectsCarousel(props) {
                 <div className="home-projects-carousel-item">
                   <div className="home-projects-carousel-item-img">
                     <img
-                      src={item.img[1]} alt="project-cover-photo"
+                      src={item.img[1].url} alt="project-cover-photo"
                       style={{width: '100%', height: 'auto'}}
                     />
                   </div>

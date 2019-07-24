@@ -25,7 +25,7 @@ class HomeProjectsList extends Component {
           return (
             <div className="home-projects-list-item">
               <div className="home-projects-list-item-hover-off">
-                <img src={project.img[0]} alt="project cover photo" />
+                <img src={project.img[0].url} alt="project cover photo" />
                 <h3>{project.title}</h3>
               </div>
   

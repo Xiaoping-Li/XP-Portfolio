@@ -1,8 +1,66 @@
 export const projects = [
   {
     img: [
-      require('../images/shopping.png'), 
-      require('../images/pets-shopping1.png'),
+      {
+        url: require('../images/shopping.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping1.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping2.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping3.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping4.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping5.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping6.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping7.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping8.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping9.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping10.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping11.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping12.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping13.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/pets-shopping14.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      }  
     ],
     id: 'pets-e-shopping',
     title: 'Pets e-Shopping',
@@ -16,8 +74,54 @@ export const projects = [
   },
   {
     img: [
-      require('../images/instagram.png'), 
-      require('../images/instagram1.png'),
+      {
+        url: require('../images/instagram.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram1.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram2.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram3.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram4.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram5.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram6.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram7.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram8.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram9.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram10.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/instagram11.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
     ],
     id: 'instagram-clone',
     title: 'Instagram Clone',
@@ -31,8 +135,14 @@ export const projects = [
   },
   {
     img: [
-      require('../images/howdiditgo.jpg'), 
-      require('../images/how-did-it-go.png'),
+      {
+        url: require('../images/howdiditgo.jpg'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/how-did-it-go.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      } 
     ],
     id: 'how-did-it-go',
     title: 'How_did_it_go',
@@ -46,8 +156,14 @@ export const projects = [
   },
   {
     img: [
-      require('../images/patientFiles.png'), 
-      require('../images/patient-files-manager.png'),
+      {
+        url: require('../images/patientFiles.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/patient-files-manager.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      }
     ],
     id: 'patient-files-manager',
     title: 'Patient Files Manager',
@@ -61,8 +177,14 @@ export const projects = [
   },
   {
     img: [
-      require('../images/todo.png'), 
-      require('../images/My Todos.png'),
+      {
+        url: require('../images/todo.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/My Todos.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      }
     ],
     id: 'my-todos',
     title: 'My Todos',
