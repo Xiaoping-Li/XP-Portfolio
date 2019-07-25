@@ -142,7 +142,35 @@ export const projects = [
       {
         url: require('../images/how-did-it-go1.png'),
         desc: 'lskdfjeljrlejtlkejltj',
-      } 
+      }, 
+      {
+        url: require('../images/how-did-it-go2.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/how-did-it-go3.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/how-did-it-go4.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/how-did-it-go5.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/how-did-it-go6.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/how-did-it-go7.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/how-did-it-go8.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
     ],
     id: 'how-did-it-go',
     title: 'How_did_it_go',
@@ -163,7 +191,15 @@ export const projects = [
       {
         url: require('../images/patient-files-manager.png'),
         desc: 'lskdfjeljrlejtlkejltj',
-      }
+      },
+      {
+        url: require('../images/patient-files-manager1.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
+      {
+        url: require('../images/patient-files-manager2.png'),
+        desc: 'lskdfjeljrlejtlkejltj',
+      },
     ],
     id: 'patient-files-manager',
     title: 'Patient Files Manager',
