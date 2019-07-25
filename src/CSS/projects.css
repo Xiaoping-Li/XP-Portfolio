@@ -52,7 +52,10 @@
   border-radius: 0.6em;
 }
 
-.side-nav-bar-link:hover .side-nav-bar-marker-bar,
+.side-nav-bar-link:hover .side-nav-bar-marker-bar {
+  border-right: 2px solid #fff;
+}
+
 .side-nav-bar-link:hover .side-nav-bar-marker-dot
  {
   background-color: #fff;
@@ -60,6 +63,16 @@
 
 .side-nav-bar-active-link {
   color: #57c077;
+}
+
+.side-nav-bar-active-link .side-nav-bar-marker-bar {
+  border-right: 3px solid #61D685;
+  box-shadow: .5px .5px 1px 1px #45995f;
+}
+
+.side-nav-bar-active-link .side-nav-bar-marker-dot {
+  background-color: #61D685;
+  box-shadow: 1px 1px 1px 1px #347347;
 }
 
 .side-nav-bar-link-name {
@@ -76,10 +89,15 @@
   margin-left: 1em;
 }
 
-.side-nav-bar-marker-bar {
+/* .side-nav-bar-marker-bar {
   width: 2px;
   height: 2em;
   background-color: #61D685;
+} */
+
+.side-nav-bar-marker-bar {
+  border-right: 2px dotted #61D685;
+  height: 2em;
 }
 
 .side-nav-bar-marker-dot {

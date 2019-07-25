@@ -140,7 +140,7 @@ export const projects = [
         desc: 'lskdfjeljrlejtlkejltj',
       },
       {
-        url: require('../images/how-did-it-go.png'),
+        url: require('../images/how-did-it-go1.png'),
         desc: 'lskdfjeljrlejtlkejltj',
       } 
     ],

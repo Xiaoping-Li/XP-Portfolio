@@ -21,6 +21,7 @@ function HomeProjectsCarousel(props) {
       <div>  
         <Carousel
           interval={null}
+          activeIndex={props.id}
         >
           {projects.map((item, idx) => {
             return (

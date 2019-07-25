@@ -13,7 +13,6 @@ function Project({match}) {
         <div className="project-info-subtitle">{project.descShort}</div>
         {project.frontEnd && <div><span className="strong-title">Front End: </span>{project.frontEnd}</div>}
         {project.backEnd && <div><span className="strong-title">Back End: </span>{project.backEnd}</div>}
-        {/* {project.desc && <div><span className="strong-title">Introduction: </span>{project.desc}</div>} */}
       </div>
       <div className="project-carousel">
         <ProjectCarousel img={images}/>
