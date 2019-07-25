@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bb26b97d1782ec7d9f22412d9865223",
+    "revision": "648d514e8daa049e061f93c97a2eb7c8",
     "url": "/xp-portfolio/index.html"
   },
   {
-    "revision": "0ca1467f645d64ea883b",
+    "revision": "c82a0f485a8f7b3f55ed",
     "url": "/xp-portfolio/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "4ca78dc42929739bdad8",
-    "url": "/xp-portfolio/static/css/main.6167e270.chunk.css"
+    "revision": "6a1cce0f2a7922becdf7",
+    "url": "/xp-portfolio/static/css/main.3b210d90.chunk.css"
   },
   {
-    "revision": "0ca1467f645d64ea883b",
-    "url": "/xp-portfolio/static/js/2.1fbcf366.chunk.js"
+    "revision": "c82a0f485a8f7b3f55ed",
+    "url": "/xp-portfolio/static/js/2.b6ca9e13.chunk.js"
   },
   {
-    "revision": "4ca78dc42929739bdad8",
-    "url": "/xp-portfolio/static/js/main.5ba7d553.chunk.js"
+    "revision": "6a1cce0f2a7922becdf7",
+    "url": "/xp-portfolio/static/js/main.ebcd1ce2.chunk.js"
   },
   {
     "revision": "6bbe16d6d5f0a75ba353",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xp-portfolio/static/media/DNA1.f3693c55.jpg"
   },
   {
-    "revision": "eb0a5232bd2756aec13f9ed6e00c7589",
-    "url": "/xp-portfolio/static/media/My Todos.eb0a5232.png"
+    "revision": "1c961d5da42f3768b808dc65194112d5",
+    "url": "/xp-portfolio/static/media/My Todos.1c961d5d.png"
   },
   {
     "revision": "14de1c9c0905c049390aed497909482d",
@@ -60,8 +60,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xp-portfolio/static/media/freelancer.0633de34.jpg"
   },
   {
-    "revision": "d7516528d89756a609c297ab1f1b4d8a",
-    "url": "/xp-portfolio/static/media/how-did-it-go.d7516528.png"
+    "revision": "3f9635f7a5a936ae3026947261c3a965",
+    "url": "/xp-portfolio/static/media/how-did-it-go1.3f9635f7.png"
+  },
+  {
+    "revision": "181757da3f034b0f20b7544d5f0d4e55",
+    "url": "/xp-portfolio/static/media/how-did-it-go2.181757da.png"
+  },
+  {
+    "revision": "1b9e0a960fe843326240e622f046d0fe",
+    "url": "/xp-portfolio/static/media/how-did-it-go3.1b9e0a96.png"
+  },
+  {
+    "revision": "7a4d95fffaff50dee7f1e08a9ed87ba1",
+    "url": "/xp-portfolio/static/media/how-did-it-go4.7a4d95ff.png"
+  },
+  {
+    "revision": "14ba7ed409d582d9da88e4a80bb227f9",
+    "url": "/xp-portfolio/static/media/how-did-it-go5.14ba7ed4.png"
+  },
+  {
+    "revision": "b1074ae48cdfcad48c59b0c0e2bbf53a",
+    "url": "/xp-portfolio/static/media/how-did-it-go6.b1074ae4.png"
+  },
+  {
+    "revision": "333dde16f8a4c849427134bf6db8722d",
+    "url": "/xp-portfolio/static/media/how-did-it-go7.333dde16.png"
+  },
+  {
+    "revision": "cabc1a2d1d514df60fa088f8b91bb670",
+    "url": "/xp-portfolio/static/media/how-did-it-go8.cabc1a2d.png"
   },
   {
     "revision": "55b3e190c44841020918b268d9033b4b",
@@ -132,8 +160,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xp-portfolio/static/media/paperwork 1.5960841e.jpg"
   },
   {
-    "revision": "05c17f08fea5d24ba3abdf1a72eae884",
-    "url": "/xp-portfolio/static/media/patient-files-manager.05c17f08.png"
+    "revision": "573e89466734ad455bee928ea78da298",
+    "url": "/xp-portfolio/static/media/patient-files-manager.573e8946.png"
+  },
+  {
+    "revision": "d58d9b3738f533d302f3bb0e5e14c8f8",
+    "url": "/xp-portfolio/static/media/patient-files-manager1.d58d9b37.png"
+  },
+  {
+    "revision": "051fa7d74d9bc0b1f00c38461ba1e553",
+    "url": "/xp-portfolio/static/media/patient-files-manager2.051fa7d7.png"
   },
   {
     "revision": "bdd3a656b8596e751d75aa2bc6a3d60d",
@@ -144,8 +180,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xp-portfolio/static/media/pets-shopping1.04f40769.png"
   },
   {
-    "revision": "005d98cda16b3f0a40702263e1064459",
-    "url": "/xp-portfolio/static/media/pets-shopping10.005d98cd.png"
+    "revision": "7f8bc6a362c238ae855a9acf55217162",
+    "url": "/xp-portfolio/static/media/pets-shopping10.7f8bc6a3.png"
   },
   {
     "revision": "03ddf801834078760254f75aabf6fdf7",
