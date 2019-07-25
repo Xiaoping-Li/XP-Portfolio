@@ -11,19 +11,20 @@ import '../CSS/footer.css';
 function Footer() {
   return (
     <div className="footer">
+      <div className="footer-title">Full Stack Dev | Bay Area San Francisco</div>
       <div className="contact-list">
-        <div className="list-item">
+        <a className="list-item" href="https://github.com/Xiaoping-Li" target="_blank">
           <FontAwesomeIcon icon={faGithubSquare} size="2x" inverse />
           <span className="item-name">GITHUB</span>
-        </div>
-        <div className="list-item">
+        </a>
+        <a className="list-item" href="https://www.linkedin.com/in/xiaoping-li-21405594/" target="_blank">
           <FontAwesomeIcon icon={faLinkedin} size="2x" inverse />
           <span className="item-name">LINKEDIN</span>
-        </div>
-        <div className="list-item">
+        </a>
+        <a className="list-item" href="https://www.youtube.com/channel/UC8DxiP44q-zWFkVXDKVEbFg?view_as=subscriber" target="_blank">
           <FontAwesomeIcon icon={faYoutubeSquare} size="2x" inverse />
           <span className="item-name">YOUTUBE</span>
-        </div>
+        </a>
         {/* <div className="list-item">
           <FontAwesomeIcon icon={faEnvelope} size="2x" inverse />
           <span className="item-name">EMAIL</span>
