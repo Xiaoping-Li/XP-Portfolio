@@ -63,6 +63,7 @@
 
 .side-nav-bar-active-link {
   color: #57c077;
+  text-shadow: 1px 1px #2b603b;
 }
 
 .side-nav-bar-active-link .side-nav-bar-marker-bar {
@@ -88,12 +89,6 @@
   align-items: center;
   margin-left: 1em;
 }
-
-/* .side-nav-bar-marker-bar {
-  width: 2px;
-  height: 2em;
-  background-color: #61D685;
-} */
 
 .side-nav-bar-marker-bar {
   border-right: 2px dotted #61D685;

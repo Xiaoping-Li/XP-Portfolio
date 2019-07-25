@@ -18,14 +18,16 @@ class HomeProjectsList extends Component {
 
   handleCarouselShow = () => this.setState({ carouselShow: !this.state.carouselShow })
   
+  handleSelect = (selectedIndex) => this.setState({ activeID: selectedIndex })
+
   render() {
     return (
       <div className="home-projects-list-container">
         {projects.map((project, index) => {
           return (
-            <div className="home-projects-list-item">
+            <div className="home-projects-list-item" key={index}>
               <div className="home-projects-list-item-hover-off">
-                <img src={project.img[0].url} alt="project cover photo" />
+                <img src={project.img[0].url} alt="project" />
                 <h3>{project.title}</h3>
               </div>
   
@@ -43,6 +45,7 @@ class HomeProjectsList extends Component {
             show={this.state.carouselShow}
             handleCarouselShow={this.handleCarouselShow}
             id={this.state.activeID} 
+            onSelect={this.handleSelect}
           />
         </div> 
       </div>

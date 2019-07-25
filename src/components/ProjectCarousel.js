@@ -9,7 +9,7 @@ function ProjectCarousel({img}) {
     >
       {img.map((image, idx) => {
         return (
-          <Carousel.Item>
+          <Carousel.Item key={idx}>
             <div className="slides-show">
               <img src={image.url} alt="photos of project" className="slides-show-img" />
               <div className="slides-show-desc">{image.desc}</div>

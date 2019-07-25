@@ -43,9 +43,9 @@ function Home() {
         </div>
 
         <div className="home-skills-list">
-          {skills.map(item => {
+          {skills.map((item, idx) => {
             return (
-              <div className="home-skills-list-item">{item}</div>
+              <div className="home-skills-list-item" key={idx}>{item}</div>
             );
           })}
         </div>

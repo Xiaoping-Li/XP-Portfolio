@@ -22,14 +22,15 @@ function HomeProjectsCarousel(props) {
         <Carousel
           interval={null}
           activeIndex={props.id}
+          onSelect={props.onSelect}
         >
           {projects.map((item, idx) => {
             return (
-              <Carousel.Item>
+              <Carousel.Item key={idx}>
                 <div className="home-projects-carousel-item">
                   <div className="home-projects-carousel-item-img">
                     <img
-                      src={item.img[1].url} alt="project-cover-photo"
+                      src={item.img[1].url} alt="project"
                       style={{width: '100%', height: 'auto'}}
                     />
                   </div>
