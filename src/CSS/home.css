@@ -82,9 +82,10 @@
   border: none;
   outLine: none;
   background: Transparent;
-  font-weight: 400;
-  font-size: 1em;
+  font-weight: 500;
+  font-size: 1.5em;
   color: #fff;
+  text-shadow: 1.5px 1.5px #43955d;
 }
 
 /* Resent Projects */
