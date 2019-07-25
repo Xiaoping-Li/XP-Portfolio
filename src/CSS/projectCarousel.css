@@ -1,15 +1,19 @@
+.slides-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+}
 .slides-show-img {
   width: 80%;
-  margin-left: 11%;
+  height: 80%;
   margin-top: 1em;
   border-radius: 0.5em;
-  border: 1px solid #565656;
 }
 
 .slides-show-desc {
   width: 90%;
-  margin-left: 5%;
-  border: 2px solid #61D685;
-  margin-top: 1em;
-  box-shadow: 1px 1px #265535;
+  height: 15%;
+  text-align: center;
 }
