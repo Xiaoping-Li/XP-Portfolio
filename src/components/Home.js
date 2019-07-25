@@ -3,8 +3,8 @@ import '../CSS/home.css';
 import down from '../images/arr_down.png';
 import RoadmapCarousel from './RoadmapCarousel';
 import HomeProjectsList from './HomeProjectsList';
+import { NavLink } from 'react-router-dom';
 import { skills } from '../data/Skills';
-
 
 
 function Home() {
@@ -22,7 +22,9 @@ function Home() {
       <div className="home-about">
         <div className="home-about-header">
           <h2>ABOUT</h2>
-          <button>DETAILS</button>
+          <NavLink to='/about'>
+            <button>DETAILS</button>
+          </NavLink>
         </div>
         <RoadmapCarousel />
       </div>
@@ -30,7 +32,9 @@ function Home() {
       <div className="home-projects">
         <div className="home-projects-header">
           <h2>PROJECTS</h2>
-          <button style={{color: '#61D685'}}>DETAILS</button>
+          <NavLink to='/projects'>
+            <button style={{color: '#61D685'}}>DETAILS</button>
+          </NavLink>
         </div>
         <div className="home-projects-list">
           <HomeProjectsList />
