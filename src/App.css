@@ -13,11 +13,50 @@
 
 .arrow-up {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 50px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #777777;
+  animation-duration: 0.5s;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
 }
 
 .arrow-up-hide {
-  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #777777;
+  animation-duration: 0.5s;
+  opacity: 0;
 }
 
+.arrow-up-icon {
+  color: #ffffff;
+  flex: 1;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}

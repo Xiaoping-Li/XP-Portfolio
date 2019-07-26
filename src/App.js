@@ -6,7 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 class App extends React.Component {
@@ -39,10 +39,10 @@ class App extends React.Component {
           <Route path='/about' component={About} />
           <Route path='/projects' component={Projects} />
           <div 
-            className={this.state.scrolled ? "arrow-up" : "arrow-up-hide"}
+            className={this.state.scrolled ? "arrow-up fadeIn" : "arrow-up-hide fadeOut"}
             onClick={this.handleScrollToTop}
           >
-            <FontAwesomeIcon icon={faChevronCircleUp} size="3x"/>
+            <FontAwesomeIcon icon={faChevronUp} size="3x" className="arrow-up-icon" />
           </div>
           <Footer />
         </div>
