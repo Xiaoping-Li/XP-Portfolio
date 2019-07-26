@@ -1,6 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
+import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
 import { projects } from '../data/Projects';
 import Project from './Project';
 import ScrollToTopOnMount from './ScrollToTopOnMount';
@@ -9,7 +8,6 @@ import '../CSS/projects.css';
 
 function Projects({match}) {
   return (
-
     <div className="projects">
       <ScrollToTopOnMount />
       <h2>PROJECTS</h2>
@@ -40,7 +38,10 @@ function Projects({match}) {
             :
             <Route path={`${match.path}/:projectId`} component={Project} />
           }  */}
+          <Switch>
+          <Redirect exact from={`${match.path}`} to={`${match.path}/pets-e-shopping`} />
           <Route path={`${match.path}/:projectId`} component={Project} />
+          </Switch>
         </div> 
       </div>  
     </div>
