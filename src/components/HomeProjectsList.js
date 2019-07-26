@@ -34,7 +34,7 @@ class HomeProjectsList extends Component {
               <div className="home-projects-list-item-hover-on">
                 <h3>{project.title}</h3>
                 <h4>{project.descShort}</h4>
-                <button onClick={this.handleEventChange(index)}>CLICK</button>
+                <button onClick={this.handleEventChange(index)}>More...</button>
               </div> 
             </div>
           );
