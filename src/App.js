@@ -14,9 +14,9 @@ function App() {
       <ScrollToTop>
         <div className="App">
         <Navigation />
-        <Route path='/' exact component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/projects' component={Projects} />
+        <Route path='/xp-portfolio/' exact component={Home} />
+        <Route path='/xp-portfolio/about' component={About} />
+        <Route path='/xp-portfolio/projects' component={Projects} />
         <Footer />
       </div>
       </ScrollToTop>
