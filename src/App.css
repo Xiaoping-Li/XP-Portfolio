@@ -19,8 +19,9 @@
   height: 55px;
   border-radius: 50%;
   display: flex;
-  background-color: #777777;
-  animation-duration: 0.5s;
+  background-color: #8a8a8a;
+  box-shadow: 1px 1px 1px 1px #303030;
+  animation-duration: 1s;
 }
 
 .fadeIn {
@@ -41,7 +42,7 @@
   height: 55px;
   border-radius: 50%;
   display: flex;
-  background-color: #777777;
+  background-color: #8a8a8a;
   animation-duration: 0.5s;
   opacity: 0;
 }
