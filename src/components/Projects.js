@@ -27,7 +27,16 @@ function Projects({match}) {
             </NavLink>
           ))}
         </div>
-        <div style={{width: '75%'}}>
+        <div className="projects-list">
+          {/* { match.path === "/projects" ?
+            projects.map((project, index) => (
+              <div className="projects-list-item" key={index}>
+                <img src={project.img[1].url} alt="welcome page" />
+              </div>
+            ))
+            :
+            <Route path={`${match.path}/:projectId`} component={Project} />
+          }  */}
           <Route path={`${match.path}/:projectId`} component={Project} />
         </div> 
       </div>  
