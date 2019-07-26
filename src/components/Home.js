@@ -7,56 +7,62 @@ import { skills } from '../data/Skills';
 import '../CSS/home.css';
 
 
-function Home() {
-  return (
-    <div className="home">
-      {/* Personal Introduction */}
-      <div className="intro-container">
-        <p className="intro">Hi, I am <span style={{backgroundColor: '#c600eb', color: '#fff', padding: '0 0.3em', borderRadius: '0.5em', textShadow: '2px 2px #411749', boxShadow: '1px 1px 2px 2px #411749' }}>XP</span><br />A Full-stack <span style={{color: '#39ff14'}}>Web</span> | <span style={{color: '#fe019a'}}>Mobile</span> Developer<br />Passionate about <span style={{color: '#1000e5'}}>Solving</span> problems, Learning new skills <span style={{backgroundColor: '#efff1a', color: '#1000e5', padding: '0 0.3em', borderRadius: '0.5em'}}>&</span> Keeping things Easy <span style={{color: '#ff073a'}}>and</span> Pretty.</p>
-      </div>
-      {/* Pointing down arrow */}
-      <div className="arr-container">
-        <img className="arr_down bounce" src={down} alt="arrow down" />
-      </div>
-      {/* About */}
-      <div className="home-about">
-        <div className="home-about-header">
-          <h2>ABOUT</h2>
-          <NavLink to='/about'>
-            <button>DETAILS</button>
-          </NavLink>          
-        </div>
-        <RoadmapCarousel />
-      </div>
-      {/* Projects */}
-      <div className="home-projects">
-        <div className="home-projects-header">
-          <h2>PROJECTS</h2>
-          <NavLink to='/projects'>
-            <button style={{color: '#61D685'}}>DETAILS</button>
-          </NavLink>
-        </div>
-        <div className="home-projects-list">
-          <HomeProjectsList />
-        </div> 
-      </div>
-      {/* Skills */}
-      <div className="home-skills">
-        <div className="home-skills-header">
-          <h2>SKILLS</h2>
-        </div>
+class Home extends React.Component {
+  handleScrollToProjects = () => {
+    const height = window.innerHeight;
+    window.scrollTo({ top: height, left: 0, behavior: 'smooth' })
+  }
 
-        <div className="home-skills-list">
-          {skills.map((item, idx) => {
-            return (
-              <div className="home-skills-list-item" key={idx}>{item}</div>
-            );
-          })}
+  render() {
+    return (
+      <div className="home">
+        {/* Personal Introduction */}
+        <div className="intro-container">
+          <p className="intro">Hi, I am <span style={{backgroundColor: '#c600eb', color: '#fff', padding: '0 0.3em', borderRadius: '0.5em', textShadow: '2px 2px #411749', boxShadow: '1px 1px 2px 2px #411749' }}>XP</span><br />A Full-stack <span style={{color: '#39ff14'}}>Web</span> | <span style={{color: '#fe019a'}}>Mobile</span> Developer<br />Passionate about <span style={{color: '#1000e5'}}>Solving</span> problems, Learning new skills <span style={{backgroundColor: '#efff1a', color: '#1000e5', padding: '0 0.3em', borderRadius: '0.5em'}}>&</span> Keeping things Easy <span style={{color: '#ff073a'}}>and</span> Pretty.</p>
+        </div>
+        {/* Pointing down arrow */}
+        <div className="arr-container" onClick={this.handleScrollToProjects}>
+          <img className="arr_down bounce" src={down} alt="arrow down" />
+        </div>
+        {/* About */}
+        <div className="home-about">
+          <div className="home-about-header">
+            <h2>ABOUT</h2>
+            <NavLink to='/about'>
+              <button>DETAILS</button>
+            </NavLink>          
+          </div>
+          <RoadmapCarousel />
+        </div>
+        {/* Projects */}
+        <div className="home-projects">
+          <div className="home-projects-header">
+            <h2>PROJECTS</h2>
+            <NavLink to='/projects'>
+              <button style={{color: '#61D685'}}>DETAILS</button>
+            </NavLink>
+          </div>
+          <div className="home-projects-list">
+            <HomeProjectsList />
+          </div> 
+        </div>
+        {/* Skills */}
+        <div className="home-skills">
+          <div className="home-skills-header">
+            <h2>SKILLS</h2>
+          </div>
+  
+          <div className="home-skills-list">
+            {skills.map((item, idx) => {
+              return (
+                <div className="home-skills-list-item" key={idx}>{item}</div>
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
-    
-  );
+    );
+  }
 }
 
 export default Home;
