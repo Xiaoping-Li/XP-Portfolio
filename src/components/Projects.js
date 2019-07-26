@@ -3,12 +3,15 @@ import { Route } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { projects } from '../data/Projects';
 import Project from './Project';
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 import '../CSS/projects.css';
 
 
 function Projects({match}) {
   return (
+
     <div className="projects">
+      <ScrollToTopOnMount />
       <h2>PROJECTS</h2>
       <div className="projects-body">
         <div className="side-nav-bar">

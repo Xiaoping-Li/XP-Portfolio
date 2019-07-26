@@ -1,10 +1,10 @@
 import React from 'react';
-import '../CSS/home.css';
 import down from '../images/arr_down.png';
 import RoadmapCarousel from './RoadmapCarousel';
 import HomeProjectsList from './HomeProjectsList';
 import { NavLink } from 'react-router-dom';
 import { skills } from '../data/Skills';
+import '../CSS/home.css';
 
 
 function Home() {
@@ -24,7 +24,7 @@ function Home() {
           <h2>ABOUT</h2>
           <NavLink to='/about'>
             <button>DETAILS</button>
-          </NavLink>
+          </NavLink>          
         </div>
         <RoadmapCarousel />
       </div>

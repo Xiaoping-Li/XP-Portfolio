@@ -1,9 +1,13 @@
 import React from 'react';
 import '../CSS/about.css';
+import ScrollToTopOnMount from './ScrollToTopOnMount';
+
 
 function About() {
-  return (
+  return (  
     <div className="about">
+      <ScrollToTopOnMount />
+
       <div className="about-desc">
         <p className="p-left">The moment when I realized that if I could join such a great engineering team like the one that I worked with, I would be able to make a bigger impact for users who want to get things done and experience an amazing UI. I left the clinical job and dive head deeply into software engineering study. Having several months of intensive training behind me, now I am a full stack web developer.</p>
         <div className="about-desc-img img-even">
