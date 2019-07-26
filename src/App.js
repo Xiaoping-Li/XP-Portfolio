@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
@@ -10,17 +10,17 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/'>
       <ScrollToTop>
         <div className="App">
         <Navigation />
-        <Route path='/xp-portfolio/' exact component={Home} />
-        <Route path='/xp-portfolio/about' component={About} />
-        <Route path='/xp-portfolio/projects' component={Projects} />
+        <Route path='/' exact component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/projects' component={Projects} />
         <Footer />
       </div>
       </ScrollToTop>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
