@@ -31,7 +31,7 @@ function About() {
       </div>
 
       <div className="about-desc">
-        <p className="p-left">After graduation from Fudan University, my love for Neuroscience brought me to University of Birmingham, UK from where I got my second Masters degree in Neuropsychology. I came to United States after my graduation and live in Bay Area since then.</p>
+        <p className="p-left">My love for Neuroscience brought me to University of Birmingham, UK after graduation from China. From there I got my second Masters degree in Neuropsychology. I came to United States after my graduation and live in Bay Area since then.</p>
         <div className="about-desc-img img-even">
           <img src={require('../images/brain.jpg')} alt="images of brain" />
         </div>
