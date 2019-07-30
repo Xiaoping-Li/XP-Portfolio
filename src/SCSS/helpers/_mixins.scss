@@ -35,3 +35,9 @@
   font-weight: $weight;
   color: $color;
 }
+
+@mixin transformRotate($deg) {
+  -ms-transform: rotate($deg); /* IE 9 */
+  -webkit-transform: rotate($deg); /* Safari 3-8 */
+  transform: rotate($deg);
+}

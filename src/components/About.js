@@ -1,6 +1,6 @@
 import React from 'react';
-import '../CSS/about.css';
 import ScrollToTopOnMount from './ScrollToTopOnMount';
+import '../SCSS/components/about.scss';
 
 
 function About() {

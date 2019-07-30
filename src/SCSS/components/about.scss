@@ -1,0 +1,74 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
+.about {
+  width: $standardWidth * 0.7;
+  @include flexStyle;
+  margin: 5em 0;
+  @include fontStyle($family: $sans-serif, $size: $normalFont, $weight: $normal);
+}
+
+.about-desc {
+  @include flexStyle($direction: row, $justifyContent: space-between);
+  p {
+    @include borderStyle($borderStyle: dotted);
+    width: $standardWidth * 0.55;
+    padding: 2em;
+    border-radius: 1em;
+    line-height: 1.5em;
+    &::first-letter {
+      @include fontStyle($serif, $mediumFont, $bold);
+    }
+  }
+}
+
+.p-left {
+  @include transformRotate(-3deg);
+}
+
+.p-right {
+  @include transformRotate(3deg);
+}
+
+.about-desc-img {
+  border: 3px solid #4dab6a;
+  width: $standardWidth * 0.3;
+  height: $standardHeight * 0.3;
+  border-radius: 0.5em;
+  @include boxShadow(2px, 2px, 2px, 2px, #132a1a);
+}
+
+.img-odd {
+  @include transformRotate(-5deg);
+}
+
+.img-even {
+  @include transformRotate(5deg);
+}
+
+.about-desc-img img {
+  width: 90%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 0.5em; 
+}
+
+.about-paper-plane {
+  width: 100%;
+  margin: 3em 0 3em 30%;
+}
+
+.plane-right {
+  @include transformRotate(-5deg);
+}
+
+.plane-left {
+  @include transformRotate(5deg);
+}
+
+.about-paper-plane img {
+  width: auto;
+  height: $standardHeight * 0.2;
+}
