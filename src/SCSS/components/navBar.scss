@@ -1,0 +1,56 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
+.nav-bar {
+  width: $standardWidth * 0.6;
+  height: $standardHeight * 0.2;
+  @include flexStyle($direction: row, $justifyContent: space-between);
+}
+
+.person-info {
+  @include flexStyle($direction: row);
+}
+
+.thumbnail {
+  max-height: 3.5em;
+  display: inline;
+  border-radius: 50%;
+}
+
+.title {
+  @include flexStyle($justifyContent: space-around, $alignItems: flex-start);
+  margin-left: 2em;
+}
+
+.name {
+  @include fontStyle($sans-serif, $normalFont, $bold);
+}
+
+.sub-title {
+  @include fontStyle($sans-serif, 1.2em, $semibold, #a8a8a8);
+}
+
+.links {
+  width: 30%;
+  @include flexStyle($direction: row, $justifyContent: space-between);
+  font-size: $normalFont;
+}
+
+.link {
+  text-decoration: none;
+  color: $darkThemeColor;
+  font-weight: $normal;
+  padding: 0.1em 0.3em;
+  &:hover {
+    text-decoration: none;
+    background-color: $themeColor;
+    color: #fff;
+    padding: 0.1em 0.3em;
+    border-radius: 0.3em;
+  }
+}
+
+.active-link {
+  color: $themeColor;
+}

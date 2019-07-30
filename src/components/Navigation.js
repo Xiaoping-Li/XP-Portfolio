@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import photo from '../images/Xiaoping Li.png';
-import '../CSS/navBar.css';
+import '../SCSS/components/navBar.scss';
 
 function Navigation() {
   return (
@@ -10,7 +10,7 @@ function Navigation() {
         <img src={photo} alt="self" className="thumbnail" />
         <div className="title">
           <div className="name">Xiaoping Li</div>
-          <div className="sub-title">Web|Mobile Development</div>
+          <div className="sub-title">Web | Mobile Development</div>
         </div>
       </div>
 
