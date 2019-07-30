@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import './App.css';
+import './App.scss';
 
 class App extends React.Component {
   state = {
