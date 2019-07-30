@@ -1,3 +1,5 @@
+@import "./variables";
+
 %fadeArrow {
   position: fixed;
   bottom: 50px;
@@ -7,4 +9,23 @@
   border-radius: 50%;
   display: flex;
   background-color: #8a8a8a;
+}
+
+%h2Color {
+  background-color: #fff;
+  color: $themeColor;
+}
+
+%h2ColorReversed {
+  background-color: $themeColor;
+  color: #fff;
+}
+
+%button {
+  border: none;
+  outLine: none;
+  background: Transparent;
+  &:active {
+    outLine: none;
+  }
 }

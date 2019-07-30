@@ -1,2 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+
+// Color
 $themeColor: #61D685;
+
 $standardBorder: 2px solid #61D685;
+
+// Width & Height
+$standardWidth: 100%;
+$standardHeight: 100vh;
+
+// Font
+$sans-serif: "Roboto", sans-serif;
+$cursive: 'Merienda One', cursive;
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 600;
+
+$normalFont: 1.5em;
+$mediumFont: 2em;
+$bigFont: 2.5em;

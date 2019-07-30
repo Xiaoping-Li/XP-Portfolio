@@ -1,10 +1,11 @@
 @import "./variables";
 
-@mixin flexStyle($direction: column, $justifyContent: center, $alignItems: center) {
+@mixin flexStyle($direction: column, $justifyContent: center, $alignItems: center, $flexWrap: nowrap) {
   display: flex;
   flex-direction: $direction;
   justify-content: $justifyContent;
   align-items: $alignItems;
+  flex-wrap: $flexWrap;
 }
 
 @mixin borderStyle($borderWidth: 2px, $borderStyle: solid, $borderColor: $themeColor) {
@@ -19,7 +20,18 @@
   box-shadow: $hOffset $vOffset $blur $spread $color;
 }
 
+@mixin textShadow($x: 1.5px, $y: 1.5px, $blur: 2px, $color: #43955d) {
+  text-shadow: $x $y $blur $color;
+}
+
 @mixin fadeArrowEffect($name) {
   -webkit-animation-name: $name;
   animation-name: $name;
+}
+
+@mixin fontStyle($family, $size, $weight, $color: #3b3a3a) {
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
 }

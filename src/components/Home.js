@@ -4,7 +4,7 @@ import RoadmapCarousel from './RoadmapCarousel';
 import HomeProjectsList from './HomeProjectsList';
 import { NavLink } from 'react-router-dom';
 import { skills } from '../data/Skills';
-import '../CSS/home.css';
+import '../SCSS/components/home.scss';
 
 
 class Home extends React.Component {

@@ -1,0 +1,131 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
+.home {
+  @include flexStyle;
+  width: $standardWidth;
+}
+
+/* Introduction */
+.intro-container {
+  background: url('../../images/color-pencils.png') no-repeat;
+  background-size: cover; 
+  height: $standardHeight * 0.73;
+}
+
+.intro {
+  @include fontStyle($cursive, $mediumFont, $semibold, #000);
+  width: 60%;
+  height: 40%;
+  margin-top: 6%;
+  margin-left: 20%;
+  line-height: 1.6;
+}
+
+.arr-container {
+  height: 8vh;
+  display: flex;
+}
+
+.arr_down {
+  align-self: flex-end;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.bounce {
+  animation-name: arrow_bounce;
+  animation-timing-function: linear;
+}
+
+@keyframes arrow_bounce {
+  0% { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+.home h2 {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+}
+
+/* About */
+.home-about {
+  height: $standardHeight * 0.7;
+  width: $standardWidth;
+  background-color: $themeColor;
+  @include flexStyle($justifyContent: space-evenly);
+}
+
+.home-about-header {
+  width: $standardWidth * 0.7;
+  @include flexStyle($direction: row, $justifyContent: space-between);
+  margin-bottom: 4em;
+  color: #fff;
+  h2 {
+    @extend %h2Color;
+  }
+  button {
+    @extend %button;
+    @include fontStyle(null, $normalFont, $semibold, #fff);
+    @include textShadow;
+  }
+}
+
+/* Resent Projects */
+.home-projects {
+  height: $standardHeight;
+  width: $standardWidth;
+  @include flexStyle($justifyContent: space-evenly);
+}
+
+.home-projects-header {
+  width: $standardWidth * 0.7;
+  @include flexStyle($direction: row, $justifyContent: space-between);
+  color: $themeColor;
+  h2 {
+    @extend %h2ColorReversed;
+  }
+  button {
+    @extend %button;
+    @include fontStyle(null, $normalFont, $semibold, #fff);
+    @include textShadow;
+  }
+}
+
+.home-projects-list {
+  width: $standardWidth * 0.7;
+}
+
+/* Skills */
+.home-skills {
+  height: $standardHeight * 0.6;
+  width: $standardWidth;
+  background-color: $themeColor;
+  @include flexStyle($justifyContent: space-evenly);
+}
+
+.home-skills-header {
+  width: $standardWidth * 0.7;
+  @include flexStyle($direction: row, $justifyContent: space-between);
+  color: #fff;
+  h2 {
+    @extend %h2Color;
+  }
+}
+
+.home-skills-list {
+  @include flexStyle($direction: row, $justifyContent: space-between, $flexWrap: wrap);
+  width: $standardWidth * 0.7;
+}
+
+.home-skills-list-item {
+  width: 19%;
+  padding: 0.5em 0;
+  background-color: #fff;
+  margin-top: 1em;
+  text-align: center;
+  border-radius: 1em;
+  @include fontStyle($sans-serif, $normalFont, $bold);
+}
