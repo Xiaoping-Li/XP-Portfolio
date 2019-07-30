@@ -1,0 +1,25 @@
+@import "./variables";
+
+@mixin flexStyle($direction: column, $justifyContent: center, $alignItems: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin borderStyle($borderWidth: 2px, $borderStyle: solid, $borderColor: $themeColor) {
+  border-width: $borderWidth;
+  border-style: $borderStyle;
+  border-color: $borderColor;
+}
+
+@mixin boxShadow($hOffset, $vOffset, $blur, $spread, $color) {
+  -webkit-box-shadow: $hOffset $vOffset $blur $spread $color;
+  -moz-box-shadow: $hOffset $vOffset $blur $spread $color;
+  box-shadow: $hOffset $vOffset $blur $spread $color;
+}
+
+@mixin fadeArrowEffect($name) {
+  -webkit-animation-name: $name;
+  animation-name: $name;
+}

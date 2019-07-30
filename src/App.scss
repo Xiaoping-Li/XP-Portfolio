@@ -1,9 +1,10 @@
+@import "./SCSS/helpers/mixins";
+@import "./SCSS//helpers/variables";
+@import "./SCSS/helpers/placeholders";
+
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-top: 2px solid #61D685;
+  @include flexStyle;
+  border-top: $standardBorder;
 }
 
 .App h2 {
@@ -12,37 +13,21 @@
 }
 
 .arrow-up {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  display: flex;
-  background-color: #8a8a8a;
-  box-shadow: 1px 1px 1px 1px #303030;
+  @extend %fadeArrow;
+  @include boxShadow(1px, 1px, 5px, 1px, #303030);
   animation-duration: 1s;
 }
 
 .fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  @include fadeArrowEffect(fadeIn);
 }
 
 .fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
+  @include fadeArrowEffect(fadeOut);
 }
 
 .arrow-up-hide {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  display: flex;
-  background-color: #8a8a8a;
+  @extend %fadeArrow;
   animation-duration: 0.5s;
   opacity: 0;
 }
