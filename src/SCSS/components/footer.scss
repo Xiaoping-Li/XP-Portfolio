@@ -1,0 +1,40 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
+.footer {
+  width: $standardWidth;
+  height: $standardHeight * 0.4;
+  background-color: $darkThemeColor;
+  @include flexStyle;
+  font-family: $sans-serif;
+  @include textShadow(2px, 2px, $color: #000);
+}
+
+.footer-title {
+  @include fontStyle(null, $mediumFont, null, #fff); 
+  margin-top: 2em;
+}
+
+.contact-list {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  @include flexStyle($alignItems: flex-start);
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.list-item {
+  margin-top: 1em;
+  .item-name {
+    color: #fff;
+    font-size: $normalFont;
+    margin-left: 1em;
+  }
+}
+
+.copyright {
+  color: #fff;
+  letter-spacing: 0.2em;
+}

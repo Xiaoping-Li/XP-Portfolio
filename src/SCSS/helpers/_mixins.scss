@@ -29,7 +29,7 @@
   animation-name: $name;
 }
 
-@mixin fontStyle($family, $size, $weight, $color: #3b3a3a) {
+@mixin fontStyle($family, $size, $weight, $color: $darkThemeColor) {
   font-family: $family;
   font-size: $size;
   font-weight: $weight;

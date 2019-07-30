@@ -5,8 +5,7 @@ import {
   faLinkedin, 
   faYoutubeSquare,  
 } from '@fortawesome/free-brands-svg-icons';
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import '../CSS/footer.css';
+import '../SCSS/components/footer.scss';
 
 function Footer() {
   return (
@@ -25,10 +24,6 @@ function Footer() {
           <FontAwesomeIcon icon={faYoutubeSquare} size="2x" inverse />
           <span className="item-name">YOUTUBE</span>
         </a>
-        {/* <div className="list-item">
-          <FontAwesomeIcon icon={faEnvelope} size="2x" inverse />
-          <span className="item-name">EMAIL</span>
-        </div>   */}
       </div>
       <div className="copyright">&copy;XP.L</div>
     </div>
