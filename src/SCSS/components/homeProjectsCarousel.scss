@@ -80,20 +80,15 @@
   background-image: none;
 }
 
-// .carousel-control-next-icon:after
-// {
-//   content: '>';
-//   font-size: 3em;
-//   color: #2ca952;
-// }
-
-// .carousel-control-prev-icon:after {
-//   content: '<';
-//   font-size: 3em;
-//   color: #2ca952;
-// }
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  color: #2ca952;
+.carousel-control-next-icon::after
+{
+  content: '>';
   font-size: 3em;
+  color: #2ca952;
+}
+
+.carousel-control-prev-icon::after {
+  content: '<';
+  font-size: 3em;
+  color: #2ca952;
 }
