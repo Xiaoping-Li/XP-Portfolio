@@ -100,7 +100,7 @@
 
 /* Skills */
 .home-skills {
-  height: $standardHeight * 0.6;
+  height: $standardHeight * 0.90;
   width: $standardWidth;
   background-color: $themeColor;
   @include flexStyle($justifyContent: space-evenly);
