@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { projects } from '../data/Projects';
-import '../CSS/homeProjectsCarousel.css';
+import '../SCSS/components/homeProjectsCarousel.scss';
 
 
 function HomeProjectsCarousel(props) {

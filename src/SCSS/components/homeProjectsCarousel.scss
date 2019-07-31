@@ -1,67 +1,65 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
 .carousel-indicators {
   display: none;
 }
 
 .home-projects-carousel-modal {
   display: flex;
-  width: 80%;
+  width: $standardWidth * 0.8;
 }
 
 .carousel-modal-close-btn {
-  width: 100%;
+  width: $standardWidth;
   text-align: right;
   padding: 1em;
   color: #2ca952;
 }
 
 .home-projects-carousel-item {
-  width: 100%;
-  height: 80vh;
+  width: $standardWidth;
+  height: $standardHeight * 0.8;
   margin-left: auto;
   margin-right: auto;
   background: #edfaf1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  @include flexStyle($justifyContent: space-around);
 }
 
 .home-projects-carousel-item-img {
   width: 50%;
   height: 45%;
-  border: 3px solid #fff;
+  @include borderStyle($borderWidth: 3px, $borderColor: #fff);
   background-color: #fff;
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
-  box-shadow: 1px 1px 1px 1px #071d0e;
+  @include boxShadow(1px, 1px, 1px, 1px, #071d0e);
 }
 
 .home-projects-carousel-item-info {
   width: 70%;
   height: 40%;
-  font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-family: $sans-serif;
+  @include flexStyle;
   padding-bottom: 1em;
 }
 
 .home-projects-carousel-item-name {
-  font-size: 2em;
-  font-weight: 600;
+  font-size: $mediumFont;
+  font-weight: $bold;
 }
 
 .home-projects-carousel-item-title {
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: $normalFont;
+  font-weight: $bold;
   padding: 0.5em;
   border-bottom: 2px solid #61d685;
   margin-bottom: 0.5em;
 }
 
 .carousel-item-media-i {
-  font-size: 1.5em;
+  font-size: $normalFont;
   margin: 0.5em 1em 0 1em;
   color: #3a804f;
 }
@@ -73,7 +71,7 @@
 }
 
 .home-projects-carousel-item-desc span {
-  font-weight: 600;
+  font-weight: $bold;
 }
 
 /*carousel left and right arrow part*/
@@ -82,15 +80,20 @@
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 3em;
-  color: #2ca952;
-}
+// .carousel-control-next-icon:after
+// {
+//   content: '>';
+//   font-size: 3em;
+//   color: #2ca952;
+// }
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 3em;
+// .carousel-control-prev-icon:after {
+//   content: '<';
+//   font-size: 3em;
+//   color: #2ca952;
+// }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
   color: #2ca952;
+  font-size: 3em;
 }
