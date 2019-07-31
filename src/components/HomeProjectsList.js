@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { projects } from '../data/Projects';
 import HomeProjectsCarousel from './HomeProjectsCarousel';
-import '../CSS/homeProjectsList.css';
+import '../SCSS/components/homeProjectsList.scss';
 
 
 class HomeProjectsList extends Component {
