@@ -2,7 +2,7 @@ import React from 'react';
 import { projects } from '../data/Projects';
 import ProjectCarousel from './ProjectCarousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import '../CSS/project.css';
 

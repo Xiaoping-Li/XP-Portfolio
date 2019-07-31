@@ -10,10 +10,16 @@ function ProjectCarousel({img}) {
       {img.map((image, idx) => {
         return (
           <Carousel.Item key={idx}>
-            <div className="slides-show">
-              <img src={image.url} alt="photos of project" className="slides-show-img" />
-              <div className="slides-show-desc">{image.desc}</div>
-            </div>
+            <div className="slides-show-container">
+              <div className="glyphicon">{"<"}</div>
+
+              <div className="slides-show">
+                <img src={image.url} alt="photos of project" className="slides-show-img" />
+                <div className="slides-show-desc">{image.desc}</div>
+              </div>
+
+              <div className="glyphicon">{">"}</div>
+            </div>   
           </Carousel.Item>
         );
       })}
