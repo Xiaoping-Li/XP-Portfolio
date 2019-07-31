@@ -1,0 +1,108 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
+.projects {
+  margin-top: 5em;
+  width: 80%;
+  height: 135vh;
+  @include flexStyle($justifyContent: flex-start, $alignItems: null);
+}
+
+.projects {
+  h2 {
+    width: 15%;
+    padding: 0.1em 0;
+    text-align: center;
+    @extend %h2ColorReversed;
+    border-radius: 0.3em;
+    margin-bottom: 3em;
+  } 
+}
+
+.projects-body {
+  width: 100%;
+  @include flexStyle($direction: row, $justifyContent: space-between, $alignItems: null);
+}
+
+.side-nav-bar {
+  width: 20%;
+  @include flexStyle($justifyContent: flex-start);
+}
+
+.side-nav-bar-link {
+  width: 100%;
+  text-decoration: none;
+  color: $darkThemeColor;
+  font-weight: $normal;
+  @include flexStyle($direction: row, $justifyContent: flex-start);
+}
+
+.side-nav-bar-link {
+  span {
+    padding: 0.6em 0.6em;
+  }
+  &:hover {
+    text-decoration: none;
+    background: linear-gradient(to right, #4dab6a, #61D685, #bfeece);
+    color: #fff;
+    border-radius: 0.6em;
+    .side-nav-bar-marker-bar {
+      border-right: 2px solid #fff;
+    }
+    .side-nav-bar-marker-dot {
+      background-color: #fff;
+    }
+  }
+}
+
+.side-nav-bar-active-link {
+  color: #57c077;
+  @include textShadow(1px, 1px, 1px, $color: #43955d);
+  .side-nav-bar-marker-bar {
+    border-right: 3px solid $themeColor;
+    box-shadow: .5px .5px 1px 1px #45995f;
+    @include boxShadow(.5px, .5px, 1px, 1px, #45995f);
+  }
+  .side-nav-bar-marker-dot {
+    background-color: $themeColor;
+    @include boxShadow(1px, 1px, 1px, 1px, #224c2f);
+  }
+}
+
+.side-nav-bar-link-name {
+  margin-left: 1em;
+  font-size: 1.3em;
+}
+
+/* side-nar-bar-marker */
+.side-nav-bar-marker {
+  @include flexStyle;
+  margin-left: 1em;
+}
+
+.side-nav-bar-marker-bar {
+  border-right: 2px dotted $themeColor;
+  height: 2em;
+}
+
+.side-nav-bar-marker-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $themeColor;
+}
+
+.projects-list {
+  width: 75%;
+  @include flexStyle($direction: row, $flexWrap: wrap);
+}
+
+.projects-list-item {
+  width: 30%;
+}
+
+.projects-list-item img {
+  width: 100%;
+}
+

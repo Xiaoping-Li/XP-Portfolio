@@ -3,7 +3,7 @@ import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
 import { projects } from '../data/Projects';
 import Project from './Project';
 import ScrollToTopOnMount from './ScrollToTopOnMount';
-import '../CSS/projects.css';
+import '../SCSS/components/projects.scss';
 
 
 function Projects({match}) {
