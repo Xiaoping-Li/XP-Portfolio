@@ -4,7 +4,7 @@ import ProjectCarousel from './ProjectCarousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import '../CSS/project.css';
+import '../SCSS/components/project.scss';
 
 function Project({match}) {
   const project = projects.find(({ id }) => id === match.params.projectId);
