@@ -1,15 +1,13 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
 .slides-show-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  @include flexStyle($direction: row);
 }
 
 .slides-show {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  @include flexStyle($justifyContent: space-between);
   height: 60vh;
   width: 90%;
 }
