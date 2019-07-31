@@ -1,29 +1,28 @@
+@import "../helpers/variables";
+@import "../helpers/placeholders";
+@import "../helpers/mixins";
+
 .roadmap-carousel {
   width: 70%;
   height: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  @include flexStyle($direction: row);
 }
 
-.roadmap-carousel-left img, .roadmap-carousel-right img {
-  width: 2em;
-  height: auto;
+.roadmap-carousel-left, .roadmap-carousel-right {
+  img {
+    width: 2em;
+    height: auto;
+  }
 }
 
 .roadmap-carousel-items {
   flex-grow: 2;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  @include flexStyle($direction: row);
 
 }
 
 .roadmap-carousel-item {
-  display: flex;
-  flex-direction: row;
+  @include flexStyle($direction: row);
 }
 
 .card-roadmap-carousel {
@@ -32,10 +31,8 @@
   text-align: center;
   background-color: #fff;
   border-radius: 0.5em;
-  box-shadow: 1px 1px 2px 2px #124220;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  color: #000;
+  @include boxShadow(1px, 1px, 5px, 1px, #124220);
+  @include fontStyle($sans-serif, null, $bold, $color: $darkThemeColor);
   line-height: 1.5em;
 }
 
@@ -44,7 +41,7 @@
   height: 8em;
   border-radius: 0.3em;
   margin: 1em auto;
-  box-shadow: 1px 1px 2px 2px #808080;
+  @include boxShadow(1px, 1px, 3px, 1px, #808080);
 }
 
 .roadmap-carousel-items-divider {
@@ -54,5 +51,5 @@
   margin: 0 1em;
   margin-top: auto;
   margin-bottom: auto;
-  box-shadow: 1px 1px #124220;
+  @include boxShadow(1px, 1px, 1px, null, #124220);
 }

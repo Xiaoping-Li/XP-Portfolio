@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {roadMap} from '../data/RoadMap';
 import slideLeft from '../images/slide-arrow-left.svg';
 import slideRight from '../images/slide-arrow-right.svg';
-import '../CSS/roadMapCarousel.css';
+import '../SCSS/components/roadMapCarousel.scss';
 
 
 class RoadmapCarousel extends Component {
@@ -47,7 +47,7 @@ class RoadmapCarousel extends Component {
                     className = "roadmap-carousel-item-img"
                   />
                   <div>{item.title}</div>
-                  <div style={{fontWeight: '400', color: '#000', fontFamily: "Snell Roundhand, cursive"}}>{item.time}</div>
+                  <div style={{fontWeight: '400', color: '$darkThemeColor', fontFamily: "Snell Roundhand, cursive"}}>{item.time}</div>
                 </div>
                 <div className="roadmap-carousel-items-divider"></div>
               </div>
