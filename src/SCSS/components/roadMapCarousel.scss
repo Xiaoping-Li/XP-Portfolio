@@ -10,7 +10,7 @@
 
 .roadmap-carousel-left, .roadmap-carousel-right {
   img {
-    width: 2em;
+    width: 2rem;
     height: auto;
   }
 }
@@ -26,29 +26,29 @@
 }
 
 .card-roadmap-carousel {
-  width: 20em;
-  height: 15em;
+  width: 20rem;
+  height: 15rem;
   text-align: center;
   background-color: #fff;
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
   @include boxShadow(1px, 1px, 5px, 1px, #124220);
   @include fontStyle($sans-serif, null, $bold, $color: $darkThemeColor);
-  line-height: 1.5em;
+  line-height: 1.5rem;
 }
 
 .roadmap-carousel-item-img {
-  width: 13em;
-  height: 8em;
-  border-radius: 0.3em;
-  margin: 1em auto;
+  width: 13rem;
+  height: 8rem;
+  border-radius: 0.3rem;
+  margin: 1rem auto;
   @include boxShadow(1px, 1px, 3px, 1px, #808080);
 }
 
 .roadmap-carousel-items-divider {
-  width: 3em;
+  width: 3rem;
   background-color: white;
   height: 2px;
-  margin: 0 1em;
+  margin: 0 1rem;
   margin-top: auto;
   margin-bottom: auto;
   @include boxShadow(1px, 1px, 1px, null, #124220);

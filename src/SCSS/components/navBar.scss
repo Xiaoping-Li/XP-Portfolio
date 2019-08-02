@@ -13,14 +13,14 @@
 }
 
 .thumbnail {
-  max-height: 3.5em;
+  max-height: 3.5rem;
   display: inline;
   border-radius: 50%;
 }
 
 .title {
   @include flexStyle($justifyContent: space-around, $alignItems: flex-start);
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 .name {
@@ -28,7 +28,7 @@
 }
 
 .sub-title {
-  @include fontStyle($sans-serif, 1.2em, $semibold, #a8a8a8);
+  @include fontStyle($sans-serif, 1.2rem, $semibold, #a8a8a8);
 }
 
 .links {
@@ -41,13 +41,13 @@
   text-decoration: none;
   color: $darkThemeColor;
   font-weight: $normal;
-  padding: 0.1em 0.3em;
+  padding: 0.1rem 0.3rem;
   &:hover {
     text-decoration: none;
     background-color: $themeColor;
     color: #fff;
-    padding: 0.1em 0.3em;
-    border-radius: 0.3em;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
   }
 }
 

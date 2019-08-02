@@ -14,7 +14,7 @@
 .carousel-modal-close-btn {
   width: $standardWidth;
   text-align: right;
-  padding: 1em;
+  padding: 1rem;
   color: #2ca952;
 }
 
@@ -37,8 +37,8 @@
   height: 45%;
   @include borderStyle($borderWidth: 3px, $borderColor: #fff);
   background-color: #fff;
-  border-bottom-right-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
   @include boxShadow(1px, 1px, 1px, 1px, #071d0e);
 }
 
@@ -47,7 +47,7 @@
   height: 40%;
   font-family: $sans-serif;
   @include flexStyle;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 
 .home-projects-carousel-item-name {
@@ -58,20 +58,20 @@
 .home-projects-carousel-item-title {
   font-size: $normalFont;
   font-weight: $bold;
-  padding: 0.5em;
+  padding: 0.5rem;
   border-bottom: 2px solid $themeColor;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 
 .carousel-item-media-i {
   font-size: $normalFont;
-  margin: 0.5em 1em 0 1em;
+  margin: 0.5rem 1rem 0 1rem;
   color: #3a804f;
 }
 
 .home-projects-carousel-item-desc {
-  font-size: 1.2em;
-  padding: 0.2em;
+  font-size: 1.2rem;
+  padding: 0.2rem;
   width: 100%;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .glyphicon {
-  font-size: 3em;
+  font-size: 3rem;
   color: #2ca952;
   opacity: 0.8;
 }

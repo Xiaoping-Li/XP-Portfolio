@@ -5,19 +5,19 @@
 .project {
   @include flexStyle;
   height: $standardHeight;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
   h3 {
     font-family: $sans-serif;
     font-size: $mediumFont;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5rem;
     border-bottom: 3px solid $themeColor;
   }
 }
 
 .project-info {
   font-family: $sans-serif;
-  font-size: 1.1em;
-  line-height: 2em;
+  font-size: 1.1rem;
+  line-height: 2rem;
   height: 25%;
   width: 80%;
 }
@@ -25,8 +25,8 @@
 .project-info-subtitle {
   width: 100%;
   text-align: center;
-  font-size: 1.25em;
-  margin-bottom: 1em;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .strong-title {
@@ -37,7 +37,7 @@
   margin-top: 5%;
   width: 90%;
   height: 70%;
-  @include borderStyle($borderWidth: 0.3em);
-  border-radius: 0.5em;
+  @include borderStyle($borderWidth: 0.3rem);
+  border-radius: 0.5rem;
   @include boxShadow(1px, 1px, 3px, 2px, #265535);
 }

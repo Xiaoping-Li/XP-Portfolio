@@ -3,7 +3,7 @@
 @import "../helpers/mixins";
 
 .projects {
-  margin-top: 5em;
+  margin-top: 5rem;
   width: 80%;
   height: 135vh;
   @include flexStyle($justifyContent: flex-start, $alignItems: null);
@@ -12,11 +12,11 @@
 .projects {
   h2 {
     width: 15%;
-    padding: 0.1em 0;
+    padding: 0.1rem 0;
     text-align: center;
     @extend %h2ColorReversed;
-    border-radius: 0.3em;
-    margin-bottom: 3em;
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
   } 
 }
 
@@ -40,13 +40,13 @@
 
 .side-nav-bar-link {
   span {
-    padding: 0.6em 0.6em;
+    padding: 0.6rem 0.6rem;
   }
   &:hover {
     text-decoration: none;
     background: linear-gradient(to right, #4dab6a, #61D685, #bfeece);
     color: #fff;
-    border-radius: 0.6em;
+    border-radius: 0.6rem;
     .side-nav-bar-marker-bar {
       border-right: 2px solid #fff;
     }
@@ -71,19 +71,19 @@
 }
 
 .side-nav-bar-link-name {
-  margin-left: 1em;
-  font-size: 1.3em;
+  margin-left: 1rem;
+  font-size: 1.3rem;
 }
 
 /* side-nar-bar-marker */
 .side-nav-bar-marker {
   @include flexStyle;
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 
 .side-nav-bar-marker-bar {
   border-right: 2px dotted $themeColor;
-  height: 2em;
+  height: 2rem;
 }
 
 .side-nav-bar-marker-dot {

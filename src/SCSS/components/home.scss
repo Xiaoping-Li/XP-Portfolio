@@ -46,8 +46,8 @@
 }
 
 .home h2 {
-  padding: 0.1em 0.3em;
-  border-radius: 0.3em;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.3rem;
 }
 
 /* About */
@@ -61,7 +61,7 @@
 .home-about-header {
   width: $standardWidth * 0.7;
   @include flexStyle($direction: row, $justifyContent: space-between);
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
   color: #fff;
   h2 {
     @extend %h2Color;
@@ -122,10 +122,10 @@
 
 .home-skills-list-item {
   width: 19%;
-  padding: 0.5em 0;
+  padding: 0.5rem 0;
   background-color: #fff;
-  margin-top: 1em;
+  margin-top: 1rem;
   text-align: center;
-  border-radius: 1em;
+  border-radius: 1rem;
   @include fontStyle($sans-serif, $normalFont, $bold);
 }
