@@ -9,18 +9,19 @@
 }
 
 .person-info {
-  @include flexStyle($direction: row);
+  @include flexStyle($direction: row, $justifyContent: flex-start);
+  width: 70%;
 }
 
 .thumbnail {
-  max-height: 3.5rem;
+  max-height: 4rem;
   display: inline;
   border-radius: 50%;
 }
 
 .title {
   @include flexStyle($justifyContent: space-around, $alignItems: flex-start);
-  margin-left: 2rem;
+  margin-left: 3%;
 }
 
 .name {
@@ -28,7 +29,7 @@
 }
 
 .sub-title {
-  @include fontStyle($sans-serif, 1.2rem, $semibold, #a8a8a8);
+  @include fontStyle($sans-serif, $smallFont, $semibold, #a8a8a8);
 }
 
 .links {
@@ -47,7 +48,7 @@
     background-color: $themeColor;
     color: #fff;
     padding: 0.1rem 0.3rem;
-    border-radius: 0.3rem;
+    border-radius: 5%;
   }
 }
 

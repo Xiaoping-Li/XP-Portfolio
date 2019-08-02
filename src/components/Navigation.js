@@ -7,7 +7,7 @@ function Navigation() {
   return (
     <nav className="nav-bar">
       <div className="person-info">
-        <img src={photo} alt="self" className="thumbnail" />
+        <img src={photo} alt="avatar" className="thumbnail" />
         <div className="title">
           <div className="name">Xiaoping Li</div>
           <div className="sub-title">Web | Mobile Development</div>
