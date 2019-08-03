@@ -9,17 +9,19 @@
 
 /* Introduction */
 .intro-container {
-  background: url('../../images/color-pencils.png') no-repeat;
+  background-image: url('../../images/color-pencils.png');
+  background-repeat: no-repeat;
   background-size: cover; 
+  background-position: center;
   height: $standardHeight * 0.73;
 }
 
 .intro {
-  @include fontStyle($cursive, $mediumFont, $semibold, #000);
-  width: 60%;
+  @include fontStyle($cursive, $mediumFont, $semibold, #0c0c0c);
+  width: 55%;
   height: 40%;
-  margin-top: 6%;
-  margin-left: 20%;
+  margin-top: 7%;
+  margin-left: 23%;
   line-height: 1.6;
 }
 
@@ -52,16 +54,16 @@
 
 /* About */
 .home-about {
-  height: $standardHeight * 0.7;
   width: $standardWidth;
+  height: $standardHeight * 0.7;
   background-color: $themeColor;
   @include flexStyle($justifyContent: space-evenly);
 }
 
 .home-about-header {
   width: $standardWidth * 0.7;
+  height: 30%;
   @include flexStyle($direction: row, $justifyContent: space-between);
-  margin-bottom: 4rem;
   color: #fff;
   h2 {
     @extend %h2Color;
