@@ -51,7 +51,7 @@
   padding: 0.1rem 0.3rem;
   border-radius: 0.3rem;
 }
-
+ 
 /* About */
 .home-about {
   width: $standardWidth;
@@ -79,11 +79,12 @@
 .home-projects {
   height: $standardHeight;
   width: $standardWidth;
-  @include flexStyle($justifyContent: space-evenly);
+  @include flexStyle($justifyContent: space-between);
 }
 
 .home-projects-header {
   width: $standardWidth * 0.7;
+  height: 20%;
   @include flexStyle($direction: row, $justifyContent: space-between);
   color: $themeColor;
   h2 {
@@ -94,10 +95,6 @@
     @include fontStyle(null, $normalFont, $semibold, #fff);
     @include textShadow;
   }
-}
-
-.home-projects-list {
-  width: $standardWidth * 0.7;
 }
 
 /* Skills */

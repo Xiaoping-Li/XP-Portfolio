@@ -12,7 +12,7 @@ class Home extends React.Component {
     const height = window.innerHeight;
     window.scrollTo({ top: height, left: 0, behavior: 'smooth' })
   }
-
+ 
   render() {
     return (
       <div className="home">
@@ -44,9 +44,8 @@ class Home extends React.Component {
               <button style={{color: '#61D685'}}>DETAILS</button>
             </NavLink>
           </div>
-          <div className="home-projects-list">
-            <HomeProjectsList />
-          </div> 
+          
+          <HomeProjectsList />
         </div>
         
         {/* Skills */}

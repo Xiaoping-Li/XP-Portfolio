@@ -19,10 +19,10 @@ class HomeProjectsList extends Component {
   handleCarouselShow = () => this.setState({ carouselShow: !this.state.carouselShow })
   
   handleSelect = (selectedIndex) => this.setState({ activeID: selectedIndex })
-
+ 
   render() {
     return (
-      <div className="home-projects-list-container">
+      <div className="home-projects-list">
         {projects.map((project, index) => {
           return (
             <div className="home-projects-list-item" key={index}>
