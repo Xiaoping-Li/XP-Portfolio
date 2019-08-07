@@ -1,16 +1,17 @@
 @import "../helpers/variables";
 @import "../helpers/placeholders";
 @import "../helpers/mixins";
-
+ 
 .project {
   @include flexStyle;
+  width: 100%;
   height: $standardHeight;
-  margin-bottom: 5rem;
   h3 {
     font-family: $sans-serif;
-    font-size: $mediumFont;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid $themeColor;
+    font-size: $bigFont;
+    font-weight: $bold;
+    padding-bottom: 1rem;
+    border-bottom: 3px dashed $themeColor;
   }
 }
 

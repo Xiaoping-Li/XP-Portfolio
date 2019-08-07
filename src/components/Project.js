@@ -7,8 +7,10 @@ import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import '../SCSS/components/project.scss';
 
 function Project({match}) {
+  
   const project = projects.find(({ id }) => id === match.params.projectId);
   const images = project.img.slice(1);
+
   return (
     <div className="project">
       <h3>{project.title}</h3>

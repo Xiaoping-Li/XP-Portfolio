@@ -5,19 +5,25 @@ import Project from './Project';
 import ScrollToTopOnMount from './ScrollToTopOnMount';
 import '../SCSS/components/projects.scss';
 
-
+ 
 function Projects({match}) {
   return (
     <div className="projects">
       <ScrollToTopOnMount />
-      <h2>PROJECTS</h2>
       <div className="projects-body">
+        <div className="projects-list">
+          <Switch>
+            <Redirect exact from={`${match.path}`} to={`${match.path}/pets-e-shopping`} />
+            <Route path={`${match.path}/:projectId`} component={Project} />
+          </Switch>
+        </div> 
+
         <div className="side-nav-bar">
           {projects.map(({title, id}) => (
             <NavLink 
               to={`${match.url}/${id}`}
               className="side-nav-bar-link"
-              activeClassName="side-nav-bar-active-link"
+              activeClassName="side-nav-bar-link active"
             >
               <div className="side-nav-bar-marker">
                 <div className="side-nav-bar-marker-bar"></div>
@@ -28,12 +34,6 @@ function Projects({match}) {
             </NavLink>
           ))}
         </div>
-        <div className="projects-list">
-          <Switch>
-            <Redirect exact from={`${match.path}`} to={`${match.path}/pets-e-shopping`} />
-            <Route path={`${match.path}/:projectId`} component={Project} />
-          </Switch>
-        </div> 
       </div>  
     </div>
   );
