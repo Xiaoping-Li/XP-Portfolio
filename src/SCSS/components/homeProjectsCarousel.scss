@@ -4,62 +4,55 @@
 
 .carousel-indicators {
   display: none;
-}
+} 
 
 .home-projects-carousel-modal {
   display: flex;
-  width: $standardWidth * 0.8;
 }
 
 .carousel-modal-close-btn {
-  width: $standardWidth;
+  width: 100%;
   text-align: right;
   padding: 1rem;
   color: #2ca952;
 }
 
-.home-projects-carousel-item-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background: #edfaf1;
-}
-
 .home-projects-carousel-item {
-  width: $standardWidth * 0.8;
-  height: $standardHeight * 0.8;
+  width: $standardWidth;
+  height: 80vh;
+  background: #61D685;
   @include flexStyle($justifyContent: space-around);
 }
 
 .home-projects-carousel-item-img {
-  width: 50%;
-  height: 45%;
-  @include borderStyle($borderWidth: 3px, $borderColor: #fff);
+  width: 65%;
+  height: 50%;
+  @include borderStyle($borderWidth: 5px, $borderColor: #fff);
   background-color: #fff;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
-  @include boxShadow(1px, 1px, 1px, 1px, #071d0e);
+  @include boxShadow(1px, 1px, 5px, 1px, #071d0e);
+
+  img {
+    width: 100%; 
+    height: auto;
+  }
 }
 
 .home-projects-carousel-item-info {
-  width: 70%;
-  height: 40%;
+  width: 80%;
+  height: 35%;
+  background-color: #fff;
   font-family: $sans-serif;
   @include flexStyle;
-  padding-bottom: 1rem;
-}
-
-.home-projects-carousel-item-name {
-  font-size: $mediumFont;
-  font-weight: $bold;
+  border-radius: 1rem;
 }
 
 .home-projects-carousel-item-title {
   font-size: $normalFont;
   font-weight: $bold;
-  padding: 0.5rem;
-  border-bottom: 2px solid $themeColor;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px dashed $themeColor;
   margin-bottom: 0.5rem;
 }
 
@@ -71,24 +64,20 @@
 
 .home-projects-carousel-item-desc {
   font-size: 1.2rem;
-  padding: 0.2rem;
+  padding: 0.2rem 1rem;
   width: 100%;
 }
 
-.home-projects-carousel-item-desc span {
-  font-weight: $bold;
+.home-projects-carousel-item-desc {
+  span {
+    font-weight: $bold;
+  }
 }
 
 /*carousel left and right arrow part*/
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  opacity: 0;
-}
-
-.glyphicon {
-  font-size: 3rem;
-  color: #2ca952;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 

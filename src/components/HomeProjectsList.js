@@ -40,14 +40,12 @@ class HomeProjectsList extends Component {
           );
         })}
 
-        <div>
-          <HomeProjectsCarousel
-            show={this.state.carouselShow}
-            handleCarouselShow={this.handleCarouselShow}
-            id={this.state.activeID} 
-            onSelect={this.handleSelect}
-          />
-        </div> 
+        <HomeProjectsCarousel
+          show={this.state.carouselShow}
+          handleCarouselShow={this.handleCarouselShow}
+          id={this.state.activeID} 
+          onSelect={this.handleSelect}
+        />
       </div>
     );
   } 
