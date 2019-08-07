@@ -14,15 +14,43 @@
   background-size: cover; 
   background-position: center;
   height: $standardHeight * 0.73;
+  width: 80%;
 }
 
 .intro {
   @include fontStyle($cursive, $mediumFont, $semibold, #0c0c0c);
   width: 55%;
   height: 40%;
-  margin-top: 7%;
-  margin-left: 23%;
+  margin-top: 8%;
+  margin-left: 25%;
   line-height: 1.6;
+
+  .xp {
+    background-color: #c600eb;
+    color: #fff;
+    padding: 0 0.3em;
+    border-radius: 0.5em;
+    text-shadow: 2px 2px #411749;
+    box-shadow: 1px 1px 2px 2px #411749;
+  }
+  .web {
+    color: #39ff14;
+  }
+  .mobile {
+    color: #fe019a;
+  }
+  .solve {
+    color: #1000e5;
+  }
+  .and-sign {
+    background-color: #efff1a;
+    color: #1000e5;
+    padding: 0 0.3em;
+    border-radius: 0.5em;
+  }
+  .and {
+    color: #ff073a;
+  }
 }
 
 .arr-container {
@@ -99,14 +127,15 @@
 
 /* Skills */
 .home-skills {
-  height: $standardHeight * 0.90;
   width: $standardWidth;
+  height: $standardHeight * 0.9;
   background-color: $themeColor;
-  @include flexStyle($justifyContent: space-evenly);
+  @include flexStyle($justifyContent: space-between);
 }
 
 .home-skills-header {
   width: $standardWidth * 0.7;
+  height: 25%;
   @include flexStyle($direction: row, $justifyContent: space-between);
   color: #fff;
   h2 {
@@ -115,15 +144,15 @@
 }
 
 .home-skills-list {
-  @include flexStyle($direction: row, $justifyContent: space-between, $flexWrap: wrap);
   width: $standardWidth * 0.7;
+  height: 75%;
+  @include flexStyle($direction: row, $justifyContent: space-between, $flexWrap: wrap);
 }
 
 .home-skills-list-item {
-  width: 19%;
+  width: 16%;
   padding: 0.5rem 0;
   background-color: #fff;
-  margin-top: 1rem;
   text-align: center;
   border-radius: 1rem;
   @include fontStyle($sans-serif, $normalFont, $bold);

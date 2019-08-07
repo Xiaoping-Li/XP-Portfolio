@@ -44,6 +44,14 @@ export const skills = [
     img: require("../images/aws.png")
   },
   {
+    name: 'Jest',
+    img: require("../images/jest.png")
+  },
+  {
+    name: 'Enzyme',
+    img: require("../images/enzyme.png")
+  },
+  {
     name: 'Mocha',
     img: require("../images/mocha.png")
   },

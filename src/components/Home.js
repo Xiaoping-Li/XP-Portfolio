@@ -18,13 +18,17 @@ class Home extends React.Component {
       <div className="home">
         {/* Personal Introduction */}
         <div className="intro-container">
-          <p className="intro">Hi, I am <span style={{backgroundColor: '#c600eb', color: '#fff', padding: '0 0.3em', borderRadius: '0.5em', textShadow: '2px 2px #411749', boxShadow: '1px 1px 2px 2px #411749' }}>XP</span><br />A Full-stack <span style={{color: '#39ff14'}}>Web</span> | <span style={{color: '#fe019a'}}>Mobile</span> Developer<br />Passionate about <span style={{color: '#1000e5'}}>Solving</span> problems, Learning new skills <span style={{backgroundColor: '#efff1a', color: '#1000e5', padding: '0 0.3em', borderRadius: '0.5em'}}>&</span> Keeping things Easy <span style={{color: '#ff073a'}}>and</span> Pretty.</p>
+          <p className="intro">Hi, I am <span className="xp">XP</span><br />
+            A Full-stack <span className="web">Web</span> | <span className="mobile">Mobile</span> Developer<br />
+            Passionate about <span className="solve">Solving</span> problems, Learning new skills <span className="and-sign">&</span> 
+            Keeping things Easy <span className="and">and</span> Pretty.
+          </p>
         </div>
         {/* Pointing down arrow */}
         <div className="arr-container" onClick={this.handleScrollToProjects}>
           <img className="arr_down bounce" src={down} alt="arrow down" />
         </div>
-
+     
         {/* About */}
         <div className="home-about">
           <div className="home-about-header">
