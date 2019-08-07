@@ -31,7 +31,7 @@ class RoadmapCarousel extends Component {
       <div className="roadmap-carousel">
         <div
           onClick={this.handleLeftClick}
-          className="roadmap-carousel-left"
+          className="roadmap-carousel-glyphicon"
         >
           <img src={slideLeft} alt="left arrow" />
         </div>
@@ -44,10 +44,9 @@ class RoadmapCarousel extends Component {
                   <img
                     src={item.img}
                     alt="roadmap"
-                    className = "roadmap-carousel-item-img"
                   />
                   <div>{item.title}</div>
-                  <div style={{fontWeight: '400', color: '$darkThemeColor', fontFamily: "Snell Roundhand, cursive"}}>{item.time}</div>
+                  <div style={{fontWeight: '500', color: '$darkThemeColor', fontFamily: "Snell Roundhand, cursive"}}>{item.time}</div>
                 </div>
                 <div className="roadmap-carousel-items-divider"></div>
               </div>
@@ -57,7 +56,7 @@ class RoadmapCarousel extends Component {
 
         <div
           onClick={this.handleRightClick}
-          className="roadmap-carousel-right"
+          className="roadmap-carousel-glyphicon"
         >
           <img src={slideRight} alt="right arrow" />
         </div>

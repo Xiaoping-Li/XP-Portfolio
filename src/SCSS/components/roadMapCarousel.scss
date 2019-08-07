@@ -3,57 +3,59 @@
 @import "../helpers/mixins";
 
 .roadmap-carousel {
-  border: 1px solid red;
   width: 70%;
   height: 70%;
   @include flexStyle($direction: row);
 }
 
-.roadmap-carousel-left, .roadmap-carousel-right {
-  border: 1px solid black;
+.roadmap-carousel-glyphicon {
+  width: 10%;
+  height: auto;
   img {
-    width: 2rem;
+    max-width: 20%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .roadmap-carousel-items {
-  border: 1px solid black;
   width: 80%;
-  //flex-grow: 2;
+  height: 50%;
   @include flexStyle($direction: row);
 
+  .roadmap-carousel-item {
+    width: 33%;
+    height: 100%;
+    @include flexStyle($direction: row);
+  }
+
+  .card-roadmap-carousel {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    @include boxShadow(1px, 1px, 5px, 1px, #124220);
+    @include fontStyle($sans-serif, null, $bold, $color: $darkThemeColor);
+    line-height: 1.5rem;
+
+    img {
+      width: 80%;
+      height: 60%;
+      border-radius: 0.3rem;
+      margin: 5% auto;
+      @include boxShadow(1px, 1px, 3px, 1px, #808080);
+    }
+  }
+
+  .roadmap-carousel-items-divider {
+    width: 12%;
+    height: 1%;
+    background-color: white;
+    margin: auto 4%;
+    @include boxShadow(1px, 1px, 1px, null, #124220);
+  }
 }
 
-.roadmap-carousel-item {
-  @include flexStyle($direction: row);
-}
-
-.card-roadmap-carousel {
-  width: 20rem;
-  height: 15rem;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 0.5rem;
-  @include boxShadow(1px, 1px, 5px, 1px, #124220);
-  @include fontStyle($sans-serif, null, $bold, $color: $darkThemeColor);
-  line-height: 1.5rem;
-}
-
-.roadmap-carousel-item-img {
-  width: 13rem;
-  height: 8rem;
-  border-radius: 0.3rem;
-  margin: 1rem auto;
-  @include boxShadow(1px, 1px, 3px, 1px, #808080);
-}
-
-.roadmap-carousel-items-divider {
-  width: 3rem;
-  background-color: white;
-  height: 2px;
-  margin: 0 1rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  @include boxShadow(1px, 1px, 1px, null, #124220);
-}

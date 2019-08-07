@@ -24,6 +24,7 @@ class Home extends React.Component {
         <div className="arr-container" onClick={this.handleScrollToProjects}>
           <img className="arr_down bounce" src={down} alt="arrow down" />
         </div>
+
         {/* About */}
         <div className="home-about">
           <div className="home-about-header">
@@ -34,6 +35,7 @@ class Home extends React.Component {
           </div>
           <RoadmapCarousel />
         </div>
+
         {/* Projects */}
         <div className="home-projects">
           <div className="home-projects-header">
@@ -46,6 +48,7 @@ class Home extends React.Component {
             <HomeProjectsList />
           </div> 
         </div>
+        
         {/* Skills */}
         <div className="home-skills">
           <div className="home-skills-header">
