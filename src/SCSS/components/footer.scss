@@ -2,7 +2,7 @@
 @import "../helpers/placeholders";
 @import "../helpers/mixins";
 
-.footer {
+.footer { 
   width: $standardWidth;
   height: $standardHeight * 0.4;
   background-color: $darkThemeColor;
@@ -13,12 +13,11 @@
 
 .footer-title {
   @include fontStyle(null, $mediumFont, null, #fff); 
-  margin-top: 2rem;
+  margin-top: 5%;
 }
 
 .contact-list {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2% auto;
   @include flexStyle($alignItems: flex-start);
   a:hover {
     text-decoration: none;
@@ -26,7 +25,7 @@
 }
 
 .list-item {
-  margin-top: 1rem;
+  margin-top: 5%;
   .item-name {
     color: #fff;
     font-size: $normalFont;

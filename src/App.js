@@ -11,7 +11,7 @@ import './App.scss';
 
 class App extends React.Component {
   state = {
-    scrolled: false
+    scrolled: false,
   };
 
   componentDidMount = () => window.addEventListener('scroll', this.handleScroll)
