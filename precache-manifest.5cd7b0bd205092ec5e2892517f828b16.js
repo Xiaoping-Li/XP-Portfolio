@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b05b54014a14e8a0794c986084f5d27",
+    "revision": "63d106c23daf1b50f4a88f4c0f37f4a9",
     "url": "/xp-portfolio/index.html"
   },
   {
-    "revision": "3d6153ee5472c82ac849",
+    "revision": "66c04b9170a371929b37",
     "url": "/xp-portfolio/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "0ab55c8d04a40d83cafe",
-    "url": "/xp-portfolio/static/css/main.b65e11ea.chunk.css"
+    "revision": "4d46b8518538669c5fc4",
+    "url": "/xp-portfolio/static/css/main.474b1a9a.chunk.css"
   },
   {
-    "revision": "3d6153ee5472c82ac849",
-    "url": "/xp-portfolio/static/js/2.561aa6ae.chunk.js"
+    "revision": "66c04b9170a371929b37",
+    "url": "/xp-portfolio/static/js/2.80e10294.chunk.js"
   },
   {
-    "revision": "0ab55c8d04a40d83cafe",
-    "url": "/xp-portfolio/static/js/main.a93a9024.chunk.js"
+    "revision": "4d46b8518538669c5fc4",
+    "url": "/xp-portfolio/static/js/main.6e4186d9.chunk.js"
   },
   {
     "revision": "6bbe16d6d5f0a75ba353",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xp-portfolio/static/media/chai.f6108efd.png"
   },
   {
-    "revision": "6a7c4cb7c4d809b3895e284143c28379",
-    "url": "/xp-portfolio/static/media/color-pencils.6a7c4cb7.png"
+    "revision": "0bcae66e4fc99038fc9b56ac0e75104c",
+    "url": "/xp-portfolio/static/media/color-pencils.0bcae66e.png"
   },
   {
     "revision": "25fb30cfd0717ee582f1c4a507b86732",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d99d41759acfa154cc271ff6dfd3ff95",
     "url": "/xp-portfolio/static/media/docker.d99d4175.jpg"
+  },
+  {
+    "revision": "b1464b1c18a4e880c6dcf8bb00b73a2b",
+    "url": "/xp-portfolio/static/media/enzyme.b1464b1c.png"
   },
   {
     "revision": "5efb35042ee055f9c174bea52ab1527a",
@@ -158,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0bbea333dbb7fcfcd18e65993b5f28db",
     "url": "/xp-portfolio/static/media/instagram9.0bbea333.png"
+  },
+  {
+    "revision": "cfa3a32613483a1ee48fac169aeb6359",
+    "url": "/xp-portfolio/static/media/jest.cfa3a326.png"
   },
   {
     "revision": "dff36bad692fa63eb3583a4c8983e3c1",
