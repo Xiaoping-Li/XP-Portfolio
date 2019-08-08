@@ -38,11 +38,17 @@
   width: 100%;
   text-align: center;
   margin: 1% 0 1% 0;
+
+  .project-media-i {
+    font-size: $normalFont;
+    margin: 0.5rem 1rem 0 1rem;
+    color: #61D685;
+  }
 }
 
 .project-carousel {
   margin-top: 5%;
-  width: 90%;
+  width: 80%;
   height: 65%;
   @include borderStyle($borderWidth: 0.5rem, $borderColor: #fff);
   border-radius: 1rem;

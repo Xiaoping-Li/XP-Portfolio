@@ -12,7 +12,6 @@ function HomeProjectsCarousel(props) {
     <Modal
       show={props.show}
       centered
-      dialogClassName="home-projects-carousel-modal"
       size="xl"
     >
       <div className="carousel-modal-close-btn" onClick={props.handleCarouselShow}>
@@ -24,6 +23,8 @@ function HomeProjectsCarousel(props) {
         activeIndex={props.id}
         onSelect={props.onSelect}
         indicators={false}
+        prevIcon={<span aria-hidden="true" className="home-project-glyphoneicon">{"<"}</span>}
+        nextIcon={<span aria-hidden="true" className="home-project-glyphoneicon">{">"}</span>}
       >
         {projects.map((item, idx) => {
           return (

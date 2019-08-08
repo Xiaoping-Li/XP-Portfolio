@@ -17,9 +17,9 @@ function Project({match}) {
       <div className="project-info">
         <div className="project-info-inner">
           <div className="project-info-subtitle">
-            <a href={project.github} target="_blank"><FontAwesomeIcon icon={faGithub} className="carousel-item-media-i" /></a>
-            {project.live && <a href={project.live} target="_blank"><FontAwesomeIcon icon={faLink} className="carousel-item-media-i" /></a>}
-            {project.youtube && <a href={project.youtube} target="_blank"><FontAwesomeIcon icon={faYoutube} className="carousel-item-media-i" /></a>}
+            <a href={project.github} target="_blank"><FontAwesomeIcon icon={faGithub} className="project-media-i" /></a>
+            {project.live && <a href={project.live} target="_blank"><FontAwesomeIcon icon={faLink} className="project-media-i" /></a>}
+            {project.youtube && <a href={project.youtube} target="_blank"><FontAwesomeIcon icon={faYoutube} className="project-media-i" /></a>}
           </div>
           {project.frontEnd && <div><span className="strong-title">Front End: </span>{project.frontEnd}</div>}
           {project.backEnd && <div><span className="strong-title">Back End: </span>{project.backEnd}</div>}
