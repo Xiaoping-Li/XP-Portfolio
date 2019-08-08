@@ -26,6 +26,13 @@
   line-height: 1.5;
   border-radius: 1rem;
   padding: 0 1rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  &::-webkit-scrollbar { 
+    //width: 0 !important;
+    display: none; 
+  }
   @include boxShadow(1px, 1px, 2px, 1px, #8c8c8c);
 
   span {
