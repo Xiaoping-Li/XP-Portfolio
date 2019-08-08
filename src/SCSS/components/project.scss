@@ -7,38 +7,44 @@
   width: 100%;
   height: $standardHeight;
   h3 {
+    width: auto;
+    height: 6%;
+    margin-bottom: 2%;
+    text-align: center;
     font-family: $sans-serif;
     font-size: $bigFont;
     font-weight: $bold;
-    padding-bottom: 1rem;
-    border-bottom: 3px dashed $themeColor;
+    border-bottom: 4px dotted $themeColor;
   }
 }
 
 .project-info {
-  font-family: $sans-serif;
-  font-size: 1.1rem;
-  line-height: 2rem;
-  height: 25%;
+  height: 22%;
   width: 80%;
+  font-family: $sans-serif;
+  font-size: $normalFont;
+  line-height: 1.5;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  @include boxShadow(1px, 1px, 2px, 1px, #8c8c8c);
+
+  span {
+    font-weight: $bold;
+  }
 }
 
 .project-info-subtitle {
   width: 100%;
   text-align: center;
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.strong-title {
-  font-weight: $bold;
+  margin: 1% 0 1% 0;
 }
 
 .project-carousel {
   margin-top: 5%;
   width: 90%;
-  height: 70%;
-  @include borderStyle($borderWidth: 0.3rem);
-  border-radius: 0.5rem;
-  @include boxShadow(1px, 1px, 3px, 2px, #265535);
+  height: 65%;
+  @include borderStyle($borderWidth: 0.5rem, $borderColor: #fff);
+  border-radius: 1rem;
+  @include boxShadow(1px, 1px, 3px, 1px, #8c8c8c);
+  background-color: $themeColor;
 }
