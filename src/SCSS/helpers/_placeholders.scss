@@ -29,3 +29,20 @@
     outLine: none;
   }
 }
+
+%overFlow {
+  // overflow hidden with y-axis scroll bar
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  // overflow hidden scrollbar
+  // Chrome, Safari, newer versions of Opera
+  &::-webkit-scrollbar { 
+    display: none; 
+  }
+  // -moz- (Firefox)
+  overflow: -moz-scrollbars-none;
+  // -ms- (Internet Explorer +10):
+  -ms-overflow-style: none;
+}

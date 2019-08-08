@@ -34,15 +34,17 @@ function HomeProjectsCarousel(props) {
                 </div>
                 
                 <div className="home-projects-carousel-item-info">
-                  <div className="home-projects-carousel-item-title">{item.title}</div>
-                  <div className="home-projects-carousel-item-media">
-                    <a href={item.github} target="_blank"><FontAwesomeIcon icon={faGithub} className="carousel-item-media-i" /></a>
-                    {item.live && <a href={item.live} target="_blank"><FontAwesomeIcon icon={faLink} className="carousel-item-media-i" /></a>}
-                    {item.youtube && <a href={item.youtube} target="_blank"><FontAwesomeIcon icon={faYoutube} className="carousel-item-media-i" /></a>}
+                  <div className="home-projects-carousel-item-info-inner">
+                    <div className="home-projects-carousel-item-title">{item.title}</div>
+                    <div className="home-projects-carousel-item-media">
+                      <a href={item.github} target="_blank"><FontAwesomeIcon icon={faGithub} className="carousel-item-media-i" /></a>
+                      {item.live && <a href={item.live} target="_blank"><FontAwesomeIcon icon={faLink} className="carousel-item-media-i" /></a>}
+                      {item.youtube && <a href={item.youtube} target="_blank"><FontAwesomeIcon icon={faYoutube} className="carousel-item-media-i" /></a>}
+                    </div>
+                    {item.frontEnd && <div className="home-projects-carousel-item-desc"><span>Front End: </span>{item.frontEnd}</div>}
+                    {item.backEnd && <div className="home-projects-carousel-item-desc"><span>Back End: </span>{item.backEnd}</div>}
+                    <p className="home-projects-carousel-item-desc"><span>Synopsis: </span>{item.desc}</p>
                   </div>
-                  {item.frontEnd && <div className="home-projects-carousel-item-desc"><span>Front End: </span>{item.frontEnd}</div>}
-                  {item.backEnd && <div className="home-projects-carousel-item-desc"><span>Back End: </span>{item.backEnd}</div>}
-                  <p className="home-projects-carousel-item-desc"><span>Synopsis: </span>{item.desc}</p>
                 </div>
               </div>  
             </Carousel.Item>

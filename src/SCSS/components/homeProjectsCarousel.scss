@@ -2,7 +2,7 @@
 @import "../helpers/placeholders";
 @import "../helpers/mixins";
 
-.carousel-indicators {
+.carousel-indicators { 
   display: none;
 } 
 
@@ -44,11 +44,14 @@
   height: 35%;
   background-color: #fff;
   font-family: $sans-serif;
-  @include flexStyle;
+  @extend %overFlow;
+  @include flexStyle($justifyContent: flex-start);
   border-radius: 1rem;
 }
 
 .home-projects-carousel-item-title {
+  width: 100%;
+  text-align: center;
   font-size: $normalFont;
   font-weight: $bold;
   padding-bottom: 0.5rem;
@@ -56,11 +59,18 @@
   margin-bottom: 0.5rem;
 }
 
-.carousel-item-media-i {
-  font-size: $normalFont;
-  margin: 0.5rem 1rem 0 1rem;
-  color: #3a804f;
+.home-projects-carousel-item-media {
+  width: 100%;
+  text-align: center;
+
+  .carousel-item-media-i {
+    font-size: $normalFont;
+    margin: 0.5rem 1rem 0 1rem;
+    color: #3a804f;
+  }
 }
+
+
 
 .home-projects-carousel-item-desc {
   background-color: #fff;
