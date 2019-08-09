@@ -31,10 +31,10 @@ class Navigation extends Component {
 
         <div className="burger-menu">
           <FontAwesomeIcon 
-            icon={faBars} 
-            size="2x" 
+            icon={this.state.menuShow ? faTimes : faBars} 
+            //size="1x" 
             onClick={this.toggleMenuShow} 
-            className={this.state.menuShow ? "menu-icon-hide" : "menu-icon-live"}
+            className="menu-icon"
           />
           <div className={this.state.menuShow ? "menu-list-live" : "menu-list-hide"} >
             <NavLink exact to='/' className="link" activeClassName="active-link" onClick={this.toggleMenuShow}>Home</NavLink>
