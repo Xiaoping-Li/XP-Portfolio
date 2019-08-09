@@ -66,12 +66,16 @@
     display: none;
   }
 
+  .link, .active-link {
+    font-size: $normalFont;
+    font-weight: 500;
+  }
+ 
   .burger-menu {
-    width: 30%;
+    width: 40%;
     height: 60%;
     display: block;
     position: relative;
-    font-size: $smallFont;
 
     .menu-icon {
       position: absolute;
@@ -94,6 +98,5 @@
 
   .menu-list-hide {
     display: none;
-  }
-  
+  }  
 }
