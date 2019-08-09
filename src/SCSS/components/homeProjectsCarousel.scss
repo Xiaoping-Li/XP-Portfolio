@@ -29,7 +29,7 @@
 
 .home-projects-carousel-item-img {
   width: 80%;
-  height: 50%;
+  max-height: 50%;
   @include borderStyle($borderWidth: 5px, $borderColor: #fff);
   background-color: #fff;
   border-bottom-right-radius: 1rem;
@@ -37,8 +37,12 @@
   @include boxShadow(1px, 1px, 2px, 1px, #000);
 
   img {
-    width: 100%; 
-    height: auto;
+    max-width: 100%; 
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 }
 

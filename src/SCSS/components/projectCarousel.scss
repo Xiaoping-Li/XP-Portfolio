@@ -20,15 +20,15 @@
 
 .projects-carousel-item-img {
   width: 70%;
-  height: 70%;
+  max-height: 70%;
   background-color: #fff;
   overflow: hidden;
   border-radius: 1rem;
   @include boxShadow(1px, 1px, 1px, null, #000);
   img {
     max-width: 90%;
+    max-height: 100%;
     margin: 1% auto;
-    height: auto;
     display: block;
     border-radius: 1rem;
   }
@@ -43,7 +43,6 @@
   padding: 1% 1%;
   border-radius: 1rem;
   text-align: center;
-  //@include textShadow(null, null, null, $color: null);
   @include boxShadow(1px, 1px, 1px, null, #000);
   @extend %overFlow;
 }

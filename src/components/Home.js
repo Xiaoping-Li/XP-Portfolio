@@ -62,10 +62,10 @@ class Home extends React.Component {
             {skills.map((item, idx) => {
               return (
                 <div className="home-skills-list-item" key={idx}>
-                  <div>
-                    <img src={item.img} alt="logo" style={{width: 'auto', height: 60}} />
+                  <div className="home-skill-logo">
+                    <img src={item.img} alt="logo" />
                   </div>
-                  <div>{item.name}</div>
+                  <div className="home-skill-name">{item.name}</div>
                 </div>
               );
             })}

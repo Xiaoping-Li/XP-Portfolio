@@ -35,7 +35,7 @@
 .links {
   width: 30%;
   @include flexStyle($direction: row, $justifyContent: space-between);
-  font-size: $mediumFont;
+  font-size: $normalFont;
 }
 
 .link {

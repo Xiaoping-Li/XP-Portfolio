@@ -12,7 +12,7 @@
     margin-bottom: 2%;
     text-align: center;
     font-family: $sans-serif;
-    font-size: $bigFont;
+    font-size: $mediumFont;
     font-weight: $bold;
     border-bottom: 4px dotted $themeColor;
   }
@@ -22,8 +22,8 @@
   height: 22%;
   width: 80%;
   font-family: $sans-serif;
-  font-size: $normalFont;
-  line-height: 1.5;
+  font-size: $smallFont;
+  line-height: 1.4;
   border-radius: 1rem;
   padding: 0 1rem;
   @extend %overFlow;

@@ -20,7 +20,7 @@
 
 .intro {
   position: absolute;
-  @include fontStyle($cursive, $mediumFont, $semibold, #0c0c0c);
+  @include fontStyle($cursive, $normalFont, $semibold, #0c0c0c);
   width: 55%;
   height: 40%;
   top: 20%;
@@ -79,7 +79,7 @@
 
 .home h2 {
   padding: 0.1rem 0.3rem;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
  
 /* About */
@@ -152,10 +152,30 @@
 }
 
 .home-skills-list-item {
-  width: 16%;
-  padding: 0.5rem 0;
+  width: 12%;
+  height: 16%;
   background-color: #fff;
-  text-align: center;
   border-radius: 1rem;
-  @include fontStyle($sans-serif, $normalFont, $bold);
+
+  .home-skill-logo {
+    width: 100%;
+    height: 50%;
+    margin-top: 8%;
+
+    img {
+      max-width: 80%;
+      max-height: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .home-skill-name {
+    width: 100%;
+    height: 40%;
+    padding: 0.5rem 0;
+    text-align: center;
+    @include fontStyle($sans-serif, $smallFont, $bold);
+    overflow: hidden;
+  }
 }

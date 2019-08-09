@@ -4,7 +4,7 @@
 
 .footer { 
   width: $standardWidth;
-  height: $standardHeight * 0.4;
+  //height: $standardHeight * 0.4;
   background-color: $darkThemeColor;
   @include flexStyle;
   font-family: $sans-serif;
@@ -34,6 +34,9 @@
 }
 
 .copyright {
+  width: 100%;
   color: #fff;
   letter-spacing: 0.2rem;
+  margin-bottom: 1%;
+  text-align: center;
 }

@@ -8,6 +8,7 @@
   h2 {
     @include fontStyle($sans-serif, $bigFont, null, null);
   }
+  position: relative;
 }
 
 .arrow-up {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import '../SCSS/components/projectCarousel.scss';
- 
+
 function ProjectCarousel({img}) {
   return (
     <Carousel
