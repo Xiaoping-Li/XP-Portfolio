@@ -55,3 +55,48 @@
 .active-link {
   color: $themeColor;
 }
+
+.burger-menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .links {
+    display: none;
+  }
+
+  .burger-menu {
+    width: 25%;
+    height: 80%;
+    display: block;
+    position: relative;
+    //font-size: $mediumFont;
+    border: 1px solid red;
+
+    .menu-icon-live {
+      position: absolute;
+      right: 0;
+      top: 45%;
+    }
+
+    .menu-icon-hide {
+      position: absolute;
+      right: 0;
+      top: 45%;
+      opacity: 0;
+    }
+  }
+
+  .menu-list-live {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    @include flexStyle($direction: column, $justifyContent: space-between, $alignItems: flex-start);
+  }
+
+  .menu-list-hide {
+    display: none;
+  }
+  
+}

@@ -45,4 +45,5 @@
   text-align: center;
   //@include textShadow(null, null, null, $color: null);
   @include boxShadow(1px, 1px, 1px, null, #000);
+  @extend %overFlow;
 }
