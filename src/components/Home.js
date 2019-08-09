@@ -12,7 +12,7 @@ class Home extends React.Component {
     const height = window.innerHeight;
     window.scrollTo({ top: height, left: 0, behavior: 'smooth' })
   }
- 
+
   render() {
     return (
       <div className="home">

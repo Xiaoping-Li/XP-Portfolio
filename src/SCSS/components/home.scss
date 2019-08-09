@@ -15,14 +15,16 @@
   background-position: center;
   height: $standardHeight * 0.73;
   width: 80%;
+  position: relative;
 }
 
 .intro {
+  position: absolute;
   @include fontStyle($cursive, $mediumFont, $semibold, #0c0c0c);
   width: 55%;
   height: 40%;
-  margin-top: 8%;
-  margin-left: 25%;
+  top: 20%;
+  left: 25%;
   line-height: 1.6;
 
   .xp {

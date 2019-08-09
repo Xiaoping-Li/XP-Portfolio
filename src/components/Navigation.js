@@ -32,7 +32,6 @@ class Navigation extends Component {
         <div className="burger-menu">
           <FontAwesomeIcon 
             icon={this.state.menuShow ? faTimes : faBars} 
-            //size="1x" 
             onClick={this.toggleMenuShow} 
             className="menu-icon"
           />
