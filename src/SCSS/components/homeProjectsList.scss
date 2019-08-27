@@ -54,17 +54,16 @@
 
   h4 {
     width: 100%;
-    height: 15%;
+    height: 65%;
     font-size: $normalFont;
   } 
 
   button {
-    width: 50%;
+    max-width: 100%;
     height: 20%;
-    margin-top: 10%;
     @extend %button;
     background: #fff;
-    @include fontStyle($family: $sans-serif, $size: 1.1rem, $weight: $bold, $color: $themeColor);
+    @include fontStyle($family: $cursive, $size: 100%, $weight: $normal, $color: $themeColor);
     border-radius: 0.5rem;
     @include boxShadow(1px, 1px, 3px, 1px, #207a3c);
   }
@@ -76,5 +75,5 @@
 }
 
 .home-projects-list-item:hover .home-projects-list-item-hover-on {
-  @include flexStyle($justifyContent: space-evenly);
+  @include flexStyle();
 }

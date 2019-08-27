@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { projects } from '../data/Projects';
 import HomeProjectsCarousel from './HomeProjectsCarousel';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import '../SCSS/components/homeProjectsList.scss';
 
 
@@ -35,9 +33,7 @@ class HomeProjectsList extends Component {
 
               <div className="home-projects-list-item-hover-on">
                 <h4>{project.descShort}</h4>
-                <button onClick={this.handleEventChange(index)}>
-                  <FontAwesomeIcon icon={faInfoCircle} size="2x" />
-                </button>
+                <button onClick={this.handleEventChange(index)}>More...</button>
               </div> 
             </div>
           );
