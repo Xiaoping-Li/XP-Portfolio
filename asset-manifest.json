@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xp-portfolio/static/css/main.0fc2cb4c.chunk.css",
+    "main.css": "/xp-portfolio/static/css/main.a1d6086c.chunk.css",
     "main.js": "/xp-portfolio/static/js/main.b76df21f.chunk.js",
     "main.js.map": "/xp-portfolio/static/js/main.b76df21f.chunk.js.map",
     "runtime~main.js": "/xp-portfolio/static/js/runtime~main.3833a866.js",
@@ -9,10 +9,10 @@
     "static/js/2.e0afcd2c.chunk.js": "/xp-portfolio/static/js/2.e0afcd2c.chunk.js",
     "static/js/2.e0afcd2c.chunk.js.map": "/xp-portfolio/static/js/2.e0afcd2c.chunk.js.map",
     "index.html": "/xp-portfolio/index.html",
-    "precache-manifest.0a46de98b6e36420b5c851e72a69aa68.js": "/xp-portfolio/precache-manifest.0a46de98b6e36420b5c851e72a69aa68.js",
+    "precache-manifest.673009152139e90c02fe22ab6c9da70e.js": "/xp-portfolio/precache-manifest.673009152139e90c02fe22ab6c9da70e.js",
     "service-worker.js": "/xp-portfolio/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/xp-portfolio/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.0fc2cb4c.chunk.css.map": "/xp-portfolio/static/css/main.0fc2cb4c.chunk.css.map",
+    "static/css/main.a1d6086c.chunk.css.map": "/xp-portfolio/static/css/main.a1d6086c.chunk.css.map",
     "static/media/Brain2.jpg": "/xp-portfolio/static/media/Brain2.1b0bb648.jpg",
     "static/media/DNA.jpg": "/xp-portfolio/static/media/DNA.2d8b043d.jpg",
     "static/media/DNA1.jpg": "/xp-portfolio/static/media/DNA1.f3693c55.jpg",
