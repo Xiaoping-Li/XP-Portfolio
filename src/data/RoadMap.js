@@ -16,7 +16,7 @@ export const roadMap = [
   }, 
   {
     img: require('../images/start up.png'),
-    title: 'Software Engineer - Intern',
+    title: 'Software Engineer Intern',
     time: '3 Months',
   },
   {
