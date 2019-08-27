@@ -19,14 +19,16 @@
   width: $standardWidth * 0.55;
   max-height: 100%;
   @extend %overFlow;
-  @include borderStyle($borderWidth: 3px, $borderStyle: dotted);
+  @include borderStyle($borderWidth: 2px, $borderStyle: dotted);
   border-radius: 1rem;
+  
   p {
     width: 100%;
     height: 100%;
     padding: 1.5rem;
     line-height: 1.5;
     letter-spacing: 1px;
+    font-size: $smallFont;
     &::first-letter {
       @include fontStyle($serif, $bigFont, $bold);
     }
@@ -67,7 +69,7 @@
 
 .about-paper-plane {
   width: 70%;
-
+  margin: 1rem auto;
   img {
     max-width: 100%;
     height: auto;
