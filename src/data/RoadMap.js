@@ -1,7 +1,7 @@
 export const roadMap = [
   {
     img: require('../images/DNA.jpg'),
-    title: 'Biochemistry & Molecular Biology',
+    title: 'Molecular Biology',
     time: 'Long long ago...',
   },
   {
