@@ -175,7 +175,7 @@
     height: 40%;
     padding: 0.5rem 0;
     text-align: center;
-    @include fontStyle($sans-serif, $smallFont, $bold);
+    @include fontStyle($sans-serif, 100%, $bold);
     overflow: hidden;
   }
 }
