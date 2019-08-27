@@ -9,7 +9,7 @@
 }
 
 .home-projects-list-item {
-  width: 23%;
+  width: 22%;
   height: 30%;
   border: $standardBorder;
   border-radius: 1rem;
@@ -19,16 +19,20 @@
   img {
     max-width: 80%;
     height: 65%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     border-radius: 1rem;
     @include boxShadow(1px, 1px, 3px, 1px, #808080);
   }
 
   h3 {
+    width: 80%;
+    height: 30%;
     text-align: center;
     font-family: $sans-serif;
     font-weight: $bold;
-    font-size: $normalFont;
+    font-size: 100%;
+    padding-top: 3%;
   } 
 }
 

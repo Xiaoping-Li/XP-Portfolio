@@ -32,7 +32,7 @@ class HomeProjectsList extends Component {
                 <img src={project.img[0].url} alt="project" />
                 <h3>{project.title}</h3>
               </div>
-  
+
               <div className="home-projects-list-item-hover-on">
                 <h4>{project.descShort}</h4>
                 <button onClick={this.handleEventChange(index)}>
